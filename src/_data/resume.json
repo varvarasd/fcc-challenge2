@@ -1,0 +1,12 @@
+{
+  "page":{
+    "pageTitle": "Daniel Varvara Interactive Resume",
+    "pageDescription": "Resume site and portfolio"
+  },
+  "section": {
+    "home": {
+      "name": "Daniel Varvara",
+      "description": "Interactive resume"
+    }
+  }
+}
