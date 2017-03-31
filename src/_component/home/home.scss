@@ -2,6 +2,10 @@ $class: 'home';
 
 .#{$class} {
   @extend %section;
+  background-image: url(asset/image/background-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,11 +16,11 @@ $class: 'home';
 .#{$class}-author {
   font-size: 2rem;
   padding: 0.5rem;
-  padding-bottom: 0;
+  padding-bottom: 0.3rem;
   border-bottom: 0.01rem solid black;
 }
 
 .#{$class}-title {
   padding: 0.5rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
