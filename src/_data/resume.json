@@ -1,12 +1,42 @@
 {
-  "page":{
+  "page":
+  {
     "pageTitle": "Daniel Varvara Interactive Resume",
     "pageDescription": "Resume site and portfolio"
   },
-  "section": {
-    "home": {
+  "section":
+  {
+    "home":
+    {
       "name": "Daniel Varvara",
       "description": "Interactive resume"
+    },
+    "profile":
+    {
+      "title": "Profile",
+      "subTitle": "I'm a very curious and creative Junior Web Developer",
+      "content":
+      [
+        {
+        "type": "text",
+        "title": "About me",
+        "text": "I'm a conscientious and highly motivated individual to better myself everyday."
+        },
+        {
+          "type": "avatar",
+          "url": "asset/image/eu.jpg"
+        },
+        {
+          "type": "list",
+          "title": "Details",
+          "list":{
+            "name": "Daniel Silviu Varvara",
+            "telephone": "07761811456",
+            "email": "varvara_sd@outlook.com",
+            "address": "69 Corporation street, E15 3HB, London, UK"
+          }
+        }
+      ]
     }
   }
 }
