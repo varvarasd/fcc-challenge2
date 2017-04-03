@@ -1,51 +1,26 @@
-  {"section":
-    {
-    "page":
-    {
-    "pageTitle": "Daniel Varvara Interactive Resume",
-    "pageDescription": "Resume site and portfolio"
-    },
+{
+  "page":
+  {
+    "pageTitle": "Daniel Varvara Resume",
+    "pageDescription": "Welcome to my resume website"
+  },
+  "section":
+  {
     "home":
     {
-      "name": "Daniel Varvara",
-      "description": "Interactive resume"
-    },
-    "profile":
-    {
-      "title": "Profile",
-      "subTitle": "I'm a very curious and creative Junior Web Developer",
-      "content":
-      [
-        {
-        "type": "text",
-        "title": "About me",
-        "text": "I'm a conscientious and highly motivated individual to better myself everyday."
-        },
-        {
-          "type": "avatar",
-          "url": "asset/image/eu.jpg"
-        },
-        {
-          "type": "list",
-          "title": "Details",
-          "list":
-          [
-            {
-              "title": "Name",
-              "content": "Silviu Daniel Varvara"
-            },
-            {
-              "title": "Telephone",
-              "content": "07761 811 456"
-            },
-            {
-              "title": "Email",
-              "content": "varvara_sd@outlook.com"
-
-            }
-          ]
-        }
-      ]
+      "author": "Daniel Varvara",
+      "title": "Junior Web Developer",
+      "background":
+      {
+        "type": "image",
+        "url": "asset/image/background-top.jpg"
+      },
+      "menu":
+      {
+        "type": "list",
+        "name": "menu",
+        "icon": "fa-bars"
+      }
     }
   }
 }
