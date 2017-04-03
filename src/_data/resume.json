@@ -1,11 +1,10 @@
-{
-  "page":
-  {
+  {"section":
+    {
+    "page":
+    {
     "pageTitle": "Daniel Varvara Interactive Resume",
     "pageDescription": "Resume site and portfolio"
-  },
-  "section":
-  {
+    },
     "home":
     {
       "name": "Daniel Varvara",
@@ -29,12 +28,22 @@
         {
           "type": "list",
           "title": "Details",
-          "list":{
-            "name": "Daniel Silviu Varvara",
-            "telephone": "07761811456",
-            "email": "varvara_sd@outlook.com",
-            "address": "69 Corporation street, E15 3HB, London, UK"
-          }
+          "list":
+          [
+            {
+              "title": "Name",
+              "content": "Silviu Daniel Varvara"
+            },
+            {
+              "title": "Telephone",
+              "content": "07761 811 456"
+            },
+            {
+              "title": "Email",
+              "content": "varvara_sd@outlook.com"
+
+            }
+          ]
         }
       ]
     }
