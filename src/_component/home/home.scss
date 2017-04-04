@@ -1,3 +1,5 @@
+@import 'menu';
+
 $class: 'home';
 
 .#{$class} {
@@ -6,16 +8,16 @@ $class: 'home';
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
   text-align: center;
+  display: flex;
 }
+
 
 .#{$class}-author {
   font-size: 2rem;
-  padding: 0.5rem;
+  margin-bottom: 0.3rem;
   padding-bottom: 0.3rem;
   border-bottom: 0.01rem solid black;
 }
@@ -23,4 +25,8 @@ $class: 'home';
 .#{$class}-title {
   padding: 0.5rem;
   font-size: 0.7rem;
+}
+.#{$class}-header {
+  font-weight: bold;
+  margin-bottom: 2rem;
 }

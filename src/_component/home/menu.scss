@@ -1,0 +1,43 @@
+$class: 'menu';
+
+.#{$class} {
+  font-size: 0.5rem;
+  color: $color-white;
+  justify-content: center;
+  display: block;
+  margin-top: 5.5rem;
+  margin-bottom: -5.5rem;
+}
+
+.#{$class}-icon {
+  cursor: pointer;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  border-bottom: 0.1rem solid $color-asparagus;
+
+}
+.#{$class}-icon:hover {
+  color: $color-mojo;
+}
+
+.#{$class}-list,
+.#{$class}-icon {
+  background: $color-asparagus;
+  line-height: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.#{$class}-list-item {
+  display: inline-block;
+}
+.#{$class}-list-item:hover {
+  color: $color-mojo;
+}
+
+input:checked ~ .#{$class}-list-item {
+  display: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}

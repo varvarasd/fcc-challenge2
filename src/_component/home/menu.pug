@@ -1,0 +1,8 @@
+.menu
+  .menu-list-wrapper
+      label.menu-icon(for="menu-icon-id") #{resume.home.menu.icon}
+      .menu-list
+        input(type="checkbox", name="menu-icon", id="menu-icon-id" checked)
+        each list in resume.home.menu.list
+          .menu-list-item #{list.label}
+      

@@ -18,39 +18,32 @@
       "menu":
       {
         "type": "list",
-        "name": "menu",
-        "icon": "fa-bars",
+        "icon": "menu-icon",
         "list":
         [
           {
             "label": "home",
-            "url": "home",
-            "icon": "fa-home"
+            "url": "home"
           },
           {
             "label": "about",
-            "url": "about",
-            "icon": "fa-info-circle"
+            "url": "about"
           },
           {
             "label": "resume",
-            "url": "resume",
-            "icon": "fa-file-word-o"
+            "url": "resume"
           },
           {
             "label": "skill",
-            "url": "skill",
-            "icon": "fa-gears"
+            "url": "skill"
           },
           {
             "label": "social",
-            "url": "social",
-            "icon": "fa-users"
+            "url": "social"
           },
           {
             "label": "contact",
-            "url": "contact",
-            "icon": "fa-phone-square"
+            "url": "contact"
           }
         ]
       }
