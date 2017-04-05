@@ -1,0 +1,12 @@
+#about
+.about
+  .about-wrapper
+    .about-portrait-wrapper
+      img.about-portrait(src=resume.about.portrait.url)
+    .about-me
+      .about-me-title #{resume.about.title}
+      .about-me-content #{resume.about.content}
+    .about-me-details
+      each details in resume.about.details
+        .about-me-details-title #{details.title}
+        .about-me-details-data #{details.data}

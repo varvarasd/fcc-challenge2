@@ -8,18 +8,18 @@
   {
     "about":
     {
-      "header":
+      "portrait":
       {
-        "type": "portrait",
-        "url": "asset/image.eu.jpg"
+        "type": "image",
+        "url": "asset/image/eu.jpg"
       },
       "title": "About me",
       "content": "A conscientious and highly motivated to progress individual with work experiences in Sales, Management, Customer Service and Real Estate roles. I am now off to conquer the coding realm shouting 'always be better than yesterday' as my warcry.",
       "details":
       [
         {
-        "title": "Birthdate",
-        "data": "27.10.1983"
+          "title": "Birthdate",
+          "data": "27.10.1983"
         },
         {
           "title": "Phone",
