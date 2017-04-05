@@ -4,6 +4,7 @@ $class: 'home';
 
 .#{$class} {
   @extend %section;
+  @extend %section-title;
   background-image: url(asset/image/background-top.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -17,16 +18,14 @@ $class: 'home';
 
 .#{$class}-author {
   font-size: 2rem;
-  margin-bottom: 0.3rem;
-  padding-bottom: 0.3rem;
   border-bottom: 0.01rem solid black;
+  display: inline-block;
+  @extend %title-frame;
 }
 
 .#{$class}-title {
-  padding: 0.5rem;
-  font-size: 0.7rem;
+  @extend %title-frame;
 }
-.#{$class}-header {
+.#{$class}-wrapper {
   font-weight: bold;
-  margin-bottom: 2rem;
 }

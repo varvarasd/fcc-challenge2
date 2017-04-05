@@ -3,16 +3,17 @@
   .about-wrapper
     .about-portrait-wrapper
       img.about-portrait(src=resume.about.portrait.url)
-    .about-me
+    .about-me-wrapper
       h1.about-me-title #{resume.about.title}
       h5.about-me-content #{resume.about.content}
-    .about-me-details-hobbies
-      .about-me-details
-        each details in resume.about.details
-          .about-me-details-title #{details.title}
-          .about-me-details-data #{details.data}
-      .about-me-hobbies
-        .about-me-hobbies-title #{resume.about.hobbies.title}
+    .about-details-hobbies-wrapper
+      .about-details
+        .about-details-title #{resume.about.details.title}
+      each content in resume.about.details.content
+        .about-details-item #{content.item}
+          .about-details-data #{content.data}
+      .about-hobbies
+        .about-hobbies-title #{resume.about.hobbies.title}
       each content in resume.about.hobbies.content
-        .about-me-hobbies-icon #{content.icon}
-          .about-me-hobbies-title #{content.title}
+        .about-hobbies-icon #{content.icon}
+          .about-hobbies-item #{content.item}

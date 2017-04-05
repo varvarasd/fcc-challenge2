@@ -1,0 +1,22 @@
+$class: 'about';
+
+
+
+.#{$class} {
+  @extend %section;
+}
+
+.#{$class}-wrapper {
+  padding: 5vw;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+}
+
+.#{$class}-portrait-wrapper,
+.#{$class}-me-wrapper,
+.#{$class}-details-hobbies-wrapper,
+.#{$class}-details,
+.#{$class}-hobbies {
+  @extend %wrapper;
+}

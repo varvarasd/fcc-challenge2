@@ -1,12 +1,12 @@
 $class: 'menu';
 
 .#{$class} {
+  @extend %section-title;
   font-size: 0.5rem;
   color: $color-white;
   justify-content: center;
-  display: block;
-  margin-top: 5.5rem;
-  margin-bottom: -5.5rem;
+  margin: 5.8rem 0 -5rem 0 ;
+
 }
 
 .#{$class}-icon {
@@ -29,7 +29,7 @@ $class: 'menu';
 }
 .#{$class}-list-item {
   display: inline-block;
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0 1rem 0 1rem;
   border-right: 0.05rem solid $color-white;
   &:last-child {
     border-right: none;
@@ -42,6 +42,8 @@ $class: 'menu';
 .#{$class}-type-checkbox:checked ~ .#{$class}-list-item {
   display: none;
 }
+
+
 
 input[type=checkbox] {
   display: none;
