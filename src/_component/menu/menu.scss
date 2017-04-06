@@ -2,6 +2,7 @@ $class: 'menu';
 
 .#{$class} {
   @extend %section-title;
+  min-height: 100%;
   font-size: 0.5rem;
   color: $color-westar;
   justify-content: center;
@@ -24,15 +25,16 @@ $class: 'menu';
 }
 .#{$class}-icon:hover {
   color: $color-mojo;
+  cursor: pointer;
 }
 
 .#{$class}-list {
   float: top;
-  display: flex;
+  display: inline-flex;
 }
 .#{$class}-list-wrapper {
   background-color: $color-ospace;
-    justify-content: center;
+  justify-content: center;
 }
 
 

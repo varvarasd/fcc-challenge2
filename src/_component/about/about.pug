@@ -11,7 +11,9 @@
       .about-details
         .about-details-title #{resume.about.details.title}
         each content in resume.about.details.content
-          .about-details-item #{content.item}
+          .div-left
+            .about-details-item #{content.item}
+          .div-right
             .about-details-data #{content.data}
       .about-hobbies
         .about-hobbies-title #{resume.about.hobbies.title}

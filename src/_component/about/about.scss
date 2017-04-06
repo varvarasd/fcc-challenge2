@@ -9,7 +9,8 @@ $class: 'about';
 }
 
 .#{$class}-wrapper {
-  padding: 5vw;
+  padding: 5vw 0;
+  margin: 1vw;
 }
 
 
@@ -43,7 +44,7 @@ $class: 'about';
 
 .#{$class}-me-content {
   margin: 4rem 0;
-  line-height: 1rem;
+  line-height: 1.2rem;
   text-align: justify;
   text-indent: 1.5rem;
 }
@@ -55,21 +56,45 @@ $class: 'about';
 .#{$class}-details,
 .#{$class}-hobbies {
   @extend %details-frame;
+  @extend %wrapper;
 }
+
 
 .#{$class}-details {
   float: left;
 }
+.div-left,
+.div-right {
+  text-align: left;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+.div-left {
+  float: left;
+  width: 30%;
+}
+
+.div-right {
+  float: right;
+  width: 70%;
+}
+
+
+.#{$class}-details-title,
+.#{$class}-hobbies-title {
+  font-weight: bold;
+  @extend %title-frame;
+}
 
 .#{$class}-details-item {
-  float:left;
-  text-align: left;
+  font-weight: bold;
 }
 
-.#{$class}-details-data {
-  float: right;
-  text-align: right;
-}
+
+
+
+
 
 .#{$class}-hobbies {
   float: right;
