@@ -1,3 +1,4 @@
+
 $class: 'about';
 
 
@@ -9,7 +10,6 @@ $class: 'about';
 
 .#{$class}-wrapper {
   padding: 5vw;
-  display: block;
 }
 
 
@@ -26,7 +26,6 @@ $class: 'about';
 .#{$class}-me-wrapper {
   @extend %section-title;
 }
-
 
 .#{$class}-portrait {
   border-radius: 50%;
