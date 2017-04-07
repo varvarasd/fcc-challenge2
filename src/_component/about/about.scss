@@ -35,7 +35,7 @@ $class: 'about';
 }
 
 .#{$class}-me-title {
-  font-size: 2rem;
+  font-size: 150%;
   font-weight: bold;
 }
 .#{$class}-me-underline {
@@ -66,8 +66,8 @@ $class: 'about';
 .div-left,
 .div-right {
   text-align: left;
-  font-size: 0.7rem;
-  line-height: 1rem;
+  font-size: 90%;
+  line-height: 1.2rem;
 }
 
 .div-left {

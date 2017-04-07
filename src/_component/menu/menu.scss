@@ -2,26 +2,28 @@ $class: 'menu';
 
 .#{$class} {
   @extend %section-title;
-  font-size: 0.5rem;
+  font-size: 70%;
   color: $color-westar;
   justify-content: center;
-  width: 100%;
-  position: fixed;
+  width: 100vw;
   left: 0;
-}
-.#{$class} {
   position: sticky;
   top: 0;
 }
-%menu-padding {
-  padding: 0.1rem 1.58rem;
+
+@media (min-width: 30rem) {
+  .#{$class}-list-wrapper {line-height: 1.5rem; display: flex; justify-content: center;align-items: center; padding: 0;}
+  .#{$class}-list {display:flex; justify-content: center; text-align: center; padding: 0 1rem;}
+  .#{$class}-list-item {display: block; width: 100%; padding: 0;}
 }
 
-.#{$class}-icon {
-  cursor: pointer;
-  float: left;
-  background-color: $color-asparagus;
+@media (max-width: 30rem) {
+  .#{$class}-list-wrapper {font-size: 130%; line-height: 3rem; display: flex; justify-content: center;align-items: center; padding: 0;}
+  .#{$class}-list {display:flex; justify-content: center; text-align: center; padding: 0 1rem;}
+  .#{$class}-list-item {display: block; width: 100%; padding: 0;}
 }
+
+
 .#{$class}-icon:hover {
   color: $color-mojo;
   cursor: pointer;
@@ -30,35 +32,25 @@ $class: 'menu';
 .#{$class}-list {
   float: top;
   display: flex;
+  width: 80%;
 }
+
+
 .#{$class}-list-wrapper {
   background-color: $color-ospace;
   justify-content: center;
-}
-
-
-.#{$class}-list-item,
-.#{$class}-icon {
-  @extend %menu-padding;
-  line-height: 1.5rem;
-}
-.#{$class}-list-item {
-  border-right: 0.01rem solid $color-asparagus;
-  &:last-child {
-    border-right: none;
-  }
   width: 100%;
 }
 
+
 .#{$class}-list-item:hover {
   color: $color-gossip;
-  background-color: $color-asparagus;
+  background: $color-asparagus;
 }
 
 .#{$class}-type-checkbox:checked ~ .#{$class}-list-item {
-  visibility: hidden;
+  display: none;
 }
-
 
 
 input[type=checkbox] {

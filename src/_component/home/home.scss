@@ -12,13 +12,14 @@ $class: 'home';
   align-items: center;
   text-align: center;
   display: flex;
+  width: 100vw;
 }
 
 
 
 
 .#{$class}-author {
-  font-size: 2rem;
+  font-size: 200%;
   border-bottom: 0.01rem solid black;
   display: inline-block;
   @extend %title-frame;
