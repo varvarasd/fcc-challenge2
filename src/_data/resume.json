@@ -18,15 +18,63 @@
         [
           {
             "jobTitle": "junior web developer",
-            "company": "bitbee ltd"
+            "company": "bitbee ltd",
+            "date": "august 2016 - to present",
+            "responsibility":
+            [
+              "writing well designed, testable, efficient code by using best web development practices",
+              "developing and maintaining the front end functionality of websites",
+              "building websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function"
+            ]
           },
           {
             "jobTitle": "lettings consultant",
             "company": "citiquays estate agents (poplar)",
-            "date": "august 2016 - to present",
+            "date": "september 2015 - august 2016",
             "responsibility":
             [
-              "writing well designed, testable, efficient code by using best web development practices"
+              "taking and arranging property viewings efficiently",
+              "making sure all clients are referenced and checked in the filing process prior the contract",
+              "negotiating and closing existing and new offers and contracts",
+              "selling all company services strongly and ethically",
+              "online touting and canvassing for new clients on social media",
+              "solve any customer enquiries, or liaise with the competent partners for the relevant raised issues",
+              "keeping records of all activity and improving the possible client database",
+              "company car and phone in care"
+            ]
+          },
+          {
+            "jobTitle": "assistant manager",
+            "company": "bella vita (broadway market)",
+            "date": "april 2012 - september 2015",
+            "responsibility":
+            [
+              "staff training, management and recruiting",
+              "creating the working rota efficiently to fit the business requirements financially and the client professionally",
+              "stock keeping and daily ordering of goods",
+              "assist with menu creation and weekly specials",
+              "taking bookings and managing turning times",
+              "table and bar service",
+              "developing recurring business by maintaining  meaningful relationships with the customers",
+              "ensure that guests have a good time at the restaurant and look immediately into any complainants they might have",
+              "food and wine matching and guiding guests throughout their restaurant experience"
+            ]
+          },
+          {
+            "jobTitle": "account manager",
+            "company": "cub international (constanta, romania)",
+            "date": "march 2008 - august 2009",
+            "responsibility":
+            [
+              "managing company accounts in the two of the most popular summer resorts in romania: eforie nord and eforie sud",
+              "meeting and exceeding targets whilst maintaining a great and professional relationship with all our clients",
+              "creating business plans for prominent clients in close colaboration with the area manager",
+              "gathering client and competitor market information to create company deals efficiently in order to overtake competition",
+              "in charge of payments and invoicing",
+              "achieving 70% increase in clients recruitment and doubling sales compared with previous year",
+              "canvas the area for new accounts",
+              "company car and phone in care",
+              "company order pad in care"
             ]
           }
         ]
@@ -34,7 +82,29 @@
         {
         "type": "list",
         "title": "education",
-        "list": "list"
+        "list":
+        [
+          {
+            "title": "css-tricks.com, udemy.com, stackoverflow.com, w3schools.com, freecodecamp.com",
+            "date": "2015- to present"
+          },
+          {
+            "title": "BTEC HND in Business and Management at AA Hamilton College, London",
+            "date": "2013 - 2015"
+          },
+          {
+            "title": "Hospitality and catering certificate, Romania",
+            "date": "2006-2007"
+          },
+          {
+            "title": "High School Technical  Energy (Specialization: Technician electronics, Romania)",
+            "date": "1998 - 2002"
+          },
+          {
+            "title": "National School and College of Arts 'Queen Marie', Constanta, Romania",
+            "date": "1991-1999"
+          }
+        ]
         }
       ]
     },
@@ -82,7 +152,7 @@
         [
           {
             "item": "Books",
-            "icon": "icon-books"
+            "icon": "icon-book"
           },
           {
             "item": "Art",
@@ -105,7 +175,7 @@
             "icon": "icon-travel"
           },
           {
-            "item": "Cineva",
+            "item": "Cinema",
             "icon": "icon-cinema"
           }
         ]

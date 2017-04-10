@@ -1,0 +1,7 @@
+$class: 'myresume';
+
+.#{$class} {
+  @extend %section;
+  @extend %section-title;
+  @extend %wrapper;
+}
