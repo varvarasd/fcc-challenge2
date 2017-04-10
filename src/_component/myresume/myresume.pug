@@ -1,0 +1,12 @@
+.myresume
+  .myresume-wrapper
+    .myresume-title #{resume.myresume.title}
+    each component in resume.myresume.component
+      .myresume-component
+        .myresume-component-title #{component.title}
+        if component.type === 'list'
+          each list in component.list
+            .myresume-component-list
+              .myresume-list-item 
+                span.myresume-job-title #{list.jobTitle}
+                span.myresume-company #{list.company}

@@ -58,3 +58,8 @@ $class: 'menu';
 input[type=checkbox] {
   display: none;
 }
+
+.#{$class}-list-link {
+  text-decoration: none;
+  color: inherit;
+}
