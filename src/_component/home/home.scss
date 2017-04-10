@@ -23,6 +23,7 @@ $class: 'home';
   border-bottom: 0.01rem solid black;
   display: inline-block;
   @extend %title-frame;
+
 }
 
 .#{$class}-title {

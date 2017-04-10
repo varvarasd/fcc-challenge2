@@ -6,6 +6,79 @@
   },
   "section":
   {
+    "my-resume":
+    {
+      "title": "my resume",
+      "component":
+      [{
+        "title": "experience",
+        "type": "list",
+        "list":
+        [{
+          "jobTitle": "junior web developer",
+          "company": "bitbee ltd",
+          "date": "august 2016 - to present",
+          "responsibility": [
+            "writing well designed, testable, efficient code by using best software development practices",
+            "developing and maintaining the front end functionality of websites",
+            "building websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function"
+            ]
+          },
+          {
+            "jobTitle": "lettings consultant",
+            "company": "citiquays estate agents (poplar)",
+            "date": "september 2015 - august 2016",
+            "responsibility": [
+              "taking and arranging property viewings efficiently",
+              "making sure all clients are referenced and checked in the filing process prior the contract",
+              "negotiating and closing existing and new offers and contracts",
+              "selling all company services strongly and ethically",
+              "online touting and canvassing for new clients on social media",
+              "solve any customer enquiries, or liaise with the competent partners for the relevant raised issues",
+              "keeping records of all activity and improving the possible client database",
+              "company car and phone in care"
+            ]
+          },
+          {
+            "title": "assistant manager",
+            "company": "bella vita (broadway market)",
+            "date": "april 2012 - september 2015",
+            "responsibility": [
+              "staff training, management and recruiting",
+              "creating the working rota efficiently to fit the business requirements financially and the client professionally",
+              "stock keeping and daily ordering of goods",
+              "assist with menu creation and weekly specials",
+              "taking bookings and managing turning times",
+              "table and bar service",
+              "developing recurring business by maintaining  meaningful relationships with the customers",
+              "ensure that guests have a good time at the restaurant and look immediately into any complainants they might have",
+              "food and wine matching and guiding guests throughout their restaurant experience"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "education",
+        "type": "list",
+        "list":
+        [{
+          "name": "css-tricks.com, udemy.com, stackoverflow.com, w3schools.com, freecodecamp.com",
+          "date": "january 2016 - to present"
+          },
+          {
+          "name": "BTEC HND in Business and Management at AA Hamilton College, London",
+          "date": "september 2013 - august 2015"
+          },
+          {
+            "name": "Hospitality and catering certificate",
+            "date": "november 2006 - february 2007"
+          },
+          {
+          "name": "High School Technical  Energy (Specialization: Technician electronics Romania)",
+          "date": "september 1997 - june 2001"
+        }]
+      }]
+    },
     "about":
     {
       "portrait":
@@ -13,9 +86,9 @@
         "type": "image",
         "url": "asset/image/eu.jpg"
       },
-      "title": "About me",
+      "title": "about me",
       "underline": "______",
-      "content": "A conscientious and highly motivated to progress individual with work experiences in Sales, Management, Customer Service and Real Estate roles. I am now off to conquer the coding realm shouting 'always be better than yesterday' as my warcry.",
+      "content": ["I’m an ambitious problem solver with a passion for coding, science and the edge of tech knowledge in general and I  would like to join a team of like-minded developers. I am thorough and precise in everything I do with a keen interest to better myself everyday. As someone who takes responsibility for my own personal developmen, I am continually evaluating and upgrading my skills so that I  stay at the cutting edge of web development. I am a natural problem solver and I always go the extra mile. "],
       "details":
       {
         "title": "Details",

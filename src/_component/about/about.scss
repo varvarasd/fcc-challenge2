@@ -3,6 +3,7 @@ $class: 'about';
 
 
 
+
 .#{$class} {
   @extend %section;
   text-align: center;
@@ -37,6 +38,7 @@ $class: 'about';
 .#{$class}-me-title {
   font-size: 150%;
   font-weight: bold;
+  @extend %uppercase;
 }
 .#{$class}-me-underline {
   color: $color-red;
@@ -66,18 +68,20 @@ $class: 'about';
 .div-left,
 .div-right {
   text-align: left;
-  font-size: 90%;
   line-height: 1.2rem;
+  font-size: 80%;
 }
 
 .div-left {
   float: left;
   width: 30%;
+
 }
 
 .div-right {
   float: right;
   width: 70%;
+
 }
 
 
