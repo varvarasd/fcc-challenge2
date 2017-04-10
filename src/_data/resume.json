@@ -164,7 +164,7 @@
       "menu":
       {
         "type": "list",
-        "icon": "menu-icon",
+        "icon": "fa-bars",
         "list":
         [
           {

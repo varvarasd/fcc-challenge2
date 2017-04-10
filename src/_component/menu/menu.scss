@@ -22,7 +22,9 @@ $class: 'menu';
   .#{$class}-list {display:flex; justify-content: center; text-align: center; padding: 0 1rem;}
   .#{$class}-list-item {display: block; width: 100%; padding: 0;}
 }
-
+.fa-bars {
+  padding: 0.2rem;
+}
 
 .#{$class}-icon:hover {
   color: $color-mojo;

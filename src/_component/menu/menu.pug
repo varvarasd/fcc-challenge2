@@ -1,7 +1,10 @@
 
 .menu
   .menu-list-wrapper
-    label.menu-icon(for="menu-icon-id") #{resume.home.menu.icon}
+    label.menu-icon(for="menu-icon-id") 
+      i.fa.fa-angle-double-right
+      i.fa.fa-bars
+      i.fa.fa-angle-double-left
     .menu-list
       input.menu-type-checkbox(type="checkbox", name="menu-icon", id="menu-icon-id" checked)
       each list in resume.home.menu.list
