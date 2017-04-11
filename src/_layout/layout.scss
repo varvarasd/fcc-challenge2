@@ -15,10 +15,11 @@ html {
 
 %uppercase {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 %section {
-  min-height: 100vh;
+  min-height: 140vh;
 }
 
 %section-title {

@@ -5,3 +5,18 @@ $class: 'myresume';
   @extend %section-title;
   @extend %wrapper;
 }
+
+.#{$class}-title {
+  @extend %title-frame;
+  @extend %uppercase;
+  border: 0.1rem solid black;
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  justify-content: center;
+  font-size: 150%;
+}
+
+.#{$class}-component {
+  display: block;
+}

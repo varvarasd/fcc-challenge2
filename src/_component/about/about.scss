@@ -1,7 +1,4 @@
-
 $class: 'about';
-
-
 
 
 .#{$class} {
@@ -13,7 +10,6 @@ $class: 'about';
   padding: 5vw 0;
   margin: 1vw;
 }
-
 
 .#{$class}-me-wrapper {
   @extend %wrapper;
@@ -37,7 +33,6 @@ $class: 'about';
 
 .#{$class}-me-title {
   font-size: 150%;
-  font-weight: bold;
   @extend %uppercase;
 }
 .#{$class}-me-underline {
@@ -45,7 +40,7 @@ $class: 'about';
 }
 
 .#{$class}-me-content {
-  margin: 4rem 0;
+  margin: 2rem 0 2rem 0;
   line-height: 1.2rem;
   text-align: justify;
   text-indent: 1.5rem;
@@ -56,12 +51,16 @@ $class: 'about';
   margin: 0;
 }
 
+.#{$class} {
+  margin: 0 auto;
+  padding: 0;
+}
+
 .#{$class}-details,
 .#{$class}-hobbies {
   @extend %details-frame;
   @extend %wrapper;
 }
-
 
 .#{$class}-details {
   float: left;
@@ -76,15 +75,12 @@ $class: 'about';
 .div-left {
   float: left;
   width: 30%;
-
 }
 
 .div-right {
   float: right;
   width: 70%;
-
 }
-
 
 .#{$class}-details-title,
 .#{$class}-hobbies-title {
@@ -95,10 +91,6 @@ $class: 'about';
 .#{$class}-details-item {
   font-weight: bold;
 }
-
-
-
-
 
 
 .#{$class}-hobbies {
