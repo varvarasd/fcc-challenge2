@@ -1,15 +1,20 @@
 $class: 'myresume';
 
 .#{$class} {
-  @extend %section;
+  margin-top: 5rem;
   @extend %section-title;
-  @extend %wrapper;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+.#{$class}-wrapper {
+  width: 100%;
+  justify-content: center;
 }
 
 .#{$class}-title {
   @extend %title-frame;
   @extend %uppercase;
-  border: 0.1rem solid black;
   display: flex;
   width: 100%;
   padding: 0.5rem;
@@ -17,6 +22,70 @@ $class: 'myresume';
   font-size: 150%;
 }
 
-.#{$class}-component {
+.#{$class}-underline {
+  @extend %underline;
+}
+
+.#{$class}-component,
+.#{$class}-component-title {
   display: block;
+}
+
+.#{$class}-component-title {
+  text-align: center;
+  @extend %uppercase;
+  padding: 0.5rem;
+  margin: 2rem 0 ;
+}
+
+.#{$class}-component-card {
+  text-align: left;
+  padding: 1rem;
+}
+
+p {
+  line-height: 1.2rem;
+}
+
+%subtitle {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.#{$class}-card-job {
+  @extend %subtitle;
+}
+
+.#{$class}-card-company,
+.#{$class}-card-date {
+  text-transform: capitalize;
+  font-size: 80%;
+  font-style: oblique;
+}
+
+.#{$class}-card-date {
+  font-size: 50%;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+  color: $color-asparagus;
+}
+
+.#{$class}-card-job,
+.#{$class}-card-company,
+.#{$class}-card-date {
+  padding-left: 1rem;
+}
+
+.#{$class}-card-responsibility::first-letter {
+  text-transform: uppercase;
+}
+
+.#{$class}-card-responsibility {
+  padding: 0;
+  text-align: justify;
+}
+
+.#{$class}-card-responsability-wrapper {
+  padding-top: 1rem;
 }

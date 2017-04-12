@@ -12,9 +12,9 @@
       "component":
       [
         {
-        "type": "list",
+        "type": "card",
         "title": "experience",
-        "list":
+        "card":
         [
           {
             "jobTitle": "junior web developer",
@@ -22,9 +22,9 @@
             "date": "august 2016 - to present",
             "responsibility":
             [
+              "developing and maintaining the front end functionality of simple websites",
               "writing well designed, testable, efficient code by using best web development practices",
-              "developing and maintaining the front end functionality of websites",
-              "building websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function"
+              "building simple websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function"
             ]
           },
           {

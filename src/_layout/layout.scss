@@ -19,7 +19,11 @@ html {
 }
 
 %section {
-  min-height: 140vh;
+  min-height: 100vh;
+}
+
+%underline {
+  color: $color-red;
 }
 
 %section-title {

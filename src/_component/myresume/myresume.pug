@@ -1,11 +1,21 @@
 .myresume
   .myresume-wrapper
     .myresume-title #{resume.myresume.title}
-  each component in resume.myresume.component
+    .myresume-underline #{resume.about.underline}
     .myresume-component
+    each component in resume.myresume.component
       .myresume-component-title #{component.title}
-    if component.type === 'list'
-    each list in component.list
-      .myresume-component-list
-        each listItem in list
-          .myresume-list-item #{listItem}
+      if component.type === 'card'
+        each card in component.card
+          .myresume-component-card 
+            p.myresume-card-job #{card.jobTitle}
+            p.myresume-card-company #{card.company}
+            p.myresume-card-date #{card.date}
+            .myresume-card-responsability-wrapper
+              each responsibility in card.responsibility
+                p.myresume-card-responsibility #{responsibility}
+      if component.type === 'list'
+        each list in component.list
+          .myresume-component-list 
+            p.myresume-list-title #{list.title}
+            p.myresume-list-date #{list.date}
