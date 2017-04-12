@@ -36,6 +36,9 @@ $class: 'myresume';
   @extend %uppercase;
   padding: 0.5rem;
   margin: 2rem 0 ;
+  display: inline-block;
+  background-color: $color-westar;
+  border-radius: 0.3rem;
 }
 
 .#{$class}-component-card {
