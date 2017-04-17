@@ -10,6 +10,7 @@ $class: 'myresume';
 .#{$class}-wrapper {
   width: 100%;
   justify-content: center;
+  display: block;
 }
 
 .#{$class}-title {
@@ -41,54 +42,77 @@ $class: 'myresume';
   border-radius: 0.3rem;
 }
 
-.#{$class}-component-card {
-  text-align: left;
-  padding: 1rem;
+.#{$class}-card-wrapper {
+  background-color: lighten($color-westar, 5);
+  padding: 0.1rem 0;
+  margin: 0.5rem;
+  border: 0.07rem solid darken($color-westar, 10%);
 }
 
-p {
-  line-height: 1.2rem;
-}
-
-%subtitle {
+.#{$class}-card-title {
   font-weight: bold;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+
+.#{$class}-card-title,
+.#{$class}-card-details {
   text-transform: capitalize;
 }
 
-.#{$class}-card-job {
-  @extend %subtitle;
+.#{$class}-card-top {
+  border: none;
 }
 
-.#{$class}-card-company,
-.#{$class}-card-date {
-  text-transform: capitalize;
-  font-size: 80%;
-  font-style: oblique;
+.#{$class}-card-body {
+  background-color: darken($color-westar, 3%);
+  padding: 1rem;
+  text-align: left;
 }
 
-.#{$class}-card-date {
+.#{$class}-card-checkbox {
+  display: none;
+}
+
+.#{$class}-card-checkbox:checked + .#{$class}-card-body {
+  display: none;
+}
+
+.#{$class}-card {
+  background-color: darken($color-westar, 3%);
+  border-radius: 2rem 2rem 0 0;
+  margin: 1rem;
+}
+.#{$class}-card-top {
+  border-bottom: 0.07rem solid darken($color-westar, 30%);
+}
+
+.fa.fa-angle-double-down {
   font-size: 50%;
-  padding: 0;
-  margin: 0;
-  line-height: normal;
-  color: $color-asparagus;
+  display: block;
+  color: $color-mojo;
 }
 
-.#{$class}-card-job,
 .#{$class}-card-company,
 .#{$class}-card-date {
-  padding-left: 1rem;
+  text-transform: capitalize;
 }
 
-.#{$class}-card-responsibility::first-letter {
-  text-transform: uppercase;
+.#{$class}-card-date {
+  font-style: oblique;
+  font-size: 60%;
+  color: darken($color-westar, 50);
+}
+.myresume-card-title,
+.fa.fa-angle-double-down {
+  cursor: pointer;
+  border-radius: 2rem 2rem 0 0;
 }
 
-.#{$class}-card-responsibility {
-  padding: 0;
-  text-align: justify;
-}
-
-.#{$class}-card-responsability-wrapper {
-  padding-top: 1rem;
+.#{$class}-card-responsability {
+  padding: 0.2rem 0;
+  &::first-letter {
+    text-transform: capitalize;
+  }
 }
