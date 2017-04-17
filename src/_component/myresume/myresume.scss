@@ -1,16 +1,18 @@
 $class: 'myresume';
 
 .#{$class} {
-  margin-top: 5rem;
+  padding-top: 10vh;
   @extend %section-title;
   line-height: 1.2rem;
   text-align: center;
+  background-color: lighten($color-westar,9)
 }
 
 .#{$class}-wrapper {
   width: 100%;
   justify-content: center;
   display: block;
+  padding: 4rem 0;
 }
 
 .#{$class}-title {
@@ -25,6 +27,7 @@ $class: 'myresume';
 
 .#{$class}-underline {
   @extend %underline;
+  padding: 1rem 0;
 }
 
 .#{$class}-component-title {
@@ -54,7 +57,6 @@ $class: 'myresume';
   padding-top: 0.5rem;
   text-align: center;
 }
-
 
 .#{$class}-card-title,
 .#{$class}-card-details {
@@ -136,12 +138,6 @@ $class: 'myresume';
     background-color: lighten($color-westar, 5);
   }
   &:nth-child(odd) {
-    background-color: darken($color-westar, 10)
+    background-color: darken($color-westar, 10%)
   }
 }
-
-
-// .#{$class}-list-title,
-// .#{$class}-list-date {
-//
-// }
