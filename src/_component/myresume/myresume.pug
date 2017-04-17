@@ -23,5 +23,7 @@
                     .myresume-card-responsability #{responsabilityItem}
         if component.type === 'list'
           .myresume-list-wrapper
-          each list in component.list
-            .myresume-list-title #{list.title}
+            each list in component.list
+              .myresume-list
+                .myresume-list-title #{list.title}
+                .myresume-list-date #{list.date}
