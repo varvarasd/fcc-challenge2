@@ -49,6 +49,7 @@ $class: 'myresume';
   background-color: lighten($color-westar, 5);
   padding: 0.1rem 0;
   margin: 0.5rem;
+  border-radius: 0.3rem;
   border: 0.07rem solid darken($color-westar, 10%);
 }
 
@@ -128,6 +129,7 @@ $class: 'myresume';
 .#{$class}-list-wrapper {
   border: 0.07rem solid darken($color-westar, 10%);
   margin: 0.5rem;
+  border-radius: 0.2rem;
 }
 
 .#{$class}-list {
