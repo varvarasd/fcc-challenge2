@@ -18,5 +18,5 @@
       .about-hobbies
         .about-hobbies-title #{resume.about.hobbies.title}
         each content in resume.about.hobbies.content
-          .about-hobbies-icon #{content.icon}
+          span.about-hobbies-icon(class=`new-cv-icon-${content.icon}`)
             .about-hobbies-item #{content.item}

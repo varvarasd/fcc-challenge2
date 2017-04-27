@@ -22,8 +22,10 @@ $class: 'menu';
   .#{$class}-list {display:flex; justify-content: center; text-align: center; padding: 0 1rem;}
   .#{$class}-list-item {display: block; width: 100%; padding: 0;}
 }
-.fa-bars {
-  padding: 0.2rem;
+
+.#{$class}-icon {
+  padding: 0.02rem 0;
+  justify-content: center;
 }
 
 .#{$class}-icon:hover {
@@ -43,7 +45,9 @@ $class: 'menu';
   justify-content: center;
   width: 100%;
 }
-
+.#{$class}-list-item {
+  display: block;
+}
 
 .#{$class}-list-item:hover {
   color: $color-gossip;

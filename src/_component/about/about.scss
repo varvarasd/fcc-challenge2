@@ -100,6 +100,10 @@ $class: 'about';
 
 .#{$class}-hobbies-icon {
   display: inline-block;
-  justify-content: center;
-  text-align: justify;
+  margin: 0.05rem;
+  background-color: lighten($color-nobel, 10);
+  padding: 0.6rem;
+  width: 3rem;
+  font-size: 70%;
+  border-radius: 5%;
 }

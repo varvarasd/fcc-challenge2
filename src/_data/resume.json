@@ -152,31 +152,31 @@
         [
           {
             "item": "Books",
-            "icon": "icon-book"
+            "icon": "book"
           },
           {
             "item": "Art",
-            "icon": "icon-art"
+            "icon": "magic-wand"
           },
           {
             "item": "Coding",
-            "icon": "icon-coding"
+            "icon": "terminal"
           },
           {
             "item": "Games",
-            "icon": "icon-games"
+            "icon": "display"
           },
           {
             "item": "Music",
-            "icon": "icon-music"
+            "icon": "headphones"
           },
           {
             "item": "Travel",
-            "icon": "icon-travel"
+            "icon": "airplane"
           },
           {
             "item": "Cinema",
-            "icon": "icon-cinema"
+            "icon": "video-camera"
           }
         ]
       }
@@ -192,6 +192,8 @@
       },
       "menu":
       {
+        "name": "menu",
+        "url": "menu",
         "type": "list",
         "list":
         [

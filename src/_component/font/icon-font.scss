@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'new-cv';
+  src:
+    url('asset/font/new-cv.ttf?iupam5') format('truetype'),
+    url('asset/font/new-cv.woff?iupam5') format('woff'),
+    url('asset/font/new-cv.svg?iupam5#new-cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="new-cv-icon-"], [class*=" new-cv-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'new-cv' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.new-cv-icon-home:before {
+  content: "\e902";
+}
+.new-cv-icon-headphones:before {
+  content: "\e910";
+}
+.new-cv-icon-video-camera:before {
+  content: "\e914";
+}
+.new-cv-icon-book:before {
+  content: "\e91f";
+}
+.new-cv-icon-phone:before {
+  content: "\e942";
+}
+.new-cv-icon-keyboard:before {
+  content: "\e955";
+}
+.new-cv-icon-display:before {
+  content: "\e956";
+}
+.new-cv-icon-laptop:before {
+  content: "\e957";
+}
+.new-cv-icon-users:before {
+  content: "\e972";
+}
+.new-cv-icon-hammer:before {
+  content: "\e996";
+}
+.new-cv-icon-magic-wand:before {
+  content: "\e997";
+}
+.new-cv-icon-hammer2:before {
+  content: "\e9a8";
+}
+.new-cv-icon-airplane:before {
+  content: "\e9af";
+}
+.new-cv-icon-menu:before {
+  content: "\e9bd";
+}
+.new-cv-icon-info:before {
+  content: "\ea0c";
+}
+.new-cv-icon-terminal:before {
+  content: "\ea81";
+}
+.new-cv-icon-mail:before {
+  content: "\ea83";
+}
+.new-cv-icon-google-plus2:before {
+  content: "\ea8c";
+}
+.new-cv-icon-facebook2:before {
+  content: "\ea91";
+}
+.new-cv-icon-whatsapp:before {
+  content: "\ea93";
+}
+.new-cv-icon-github:before {
+  content: "\eab0";
+}
+.new-cv-icon-skype:before {
+  content: "\eac5";
+}
+.new-cv-icon-linkedin:before {
+  content: "\eac9";
+}
+.new-cv-icon-file-word:before {
+  content: "\eae1";
+}

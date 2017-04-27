@@ -2,12 +2,9 @@
 .menu
   .menu-list-wrapper
     label.menu-icon(for="menu-icon-id") 
-      i.fa.fa-angle-double-right
-      i.fa.fa-bars
-      i.fa.fa-angle-double-left
+      .new-cv-icon-menu
     .menu-list
       input.menu-type-checkbox(type="checkbox", name="menu-icon", id="menu-icon-id" checked)
       each list in resume.home.menu.list
         .menu-list-item 
-          a.menu-list-link(href=`#${list.url}`) #{list.label}
-      
+          a.menu-list-link(href=`#${list.url}`) #{list.label}      
