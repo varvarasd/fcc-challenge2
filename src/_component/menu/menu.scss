@@ -45,9 +45,6 @@ $class: 'menu';
   justify-content: center;
   width: 100%;
 }
-.#{$class}-list-item {
-  display: block;
-}
 
 .#{$class}-list-item:hover {
   color: $color-gossip;
@@ -57,7 +54,6 @@ $class: 'menu';
 .#{$class}-type-checkbox:checked ~ .#{$class}-list-item {
   display: none;
 }
-
 
 .menu-type-checkbox {
   display: none;

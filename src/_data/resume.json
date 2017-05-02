@@ -6,6 +6,22 @@
   },
   "section":
   {
+    "skill":
+    {
+      "title": "Skills",
+      "list":[
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "JSON",
+        "SASS",
+        "Pug/Jade",
+        "Gulp",
+        "Git",
+        "Github"
+      ]
+    },
     "myresume":
     {
       "title": "my resume",

@@ -1,0 +1,18 @@
+$class: 'skill';
+
+.#{$class} {
+  @extend %section;
+  @extend %section-title;
+  @extend %wrapper;
+  text-align: center;
+}
+
+.#{$class}-title {
+  @extend %section-title;
+  @extend %title-frame;
+  @extend %uppercase;
+  // width: 100%;
+  padding: 0.5rem;
+  font-size: 150%;
+  border: 0.01rem solid black;
+}
