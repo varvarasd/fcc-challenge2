@@ -2,10 +2,10 @@ $class: 'menu';
 
 .#{$class} {
   @extend %section-title;
-  font-size: 70%;
+  font-size: 40%;
   color: $color-westar;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   left: 0;
   position: sticky;
   top: 0;
@@ -28,11 +28,6 @@ $class: 'menu';
   .#{$class}-list-item {display: block; width: 100%; padding: 0;}
 }
 
-.#{$class}-icon {
-  padding: 0.02rem 0;
-  justify-content: center;
-  width: 50px;
-}
 
 .#{$class}-icon:hover {
   color: $color-mojo;
@@ -50,13 +45,14 @@ $class: 'menu';
   background-color: $color-ospace;
   justify-content: center;
   width: 100%;
+  cursor: pointer;
 }
 
 .#{$class}-list-item:hover {
   color: darken($color-red, 30);
   background: $color-nobel;
   border-radius: 0.2rem;
-  margin: 0.2rem;
+  margin: 0.1rem;
   transition: 0.5s;
   display: inline-block;
 }
@@ -72,4 +68,6 @@ $class: 'menu';
 .#{$class}-list-link {
   text-decoration: none;
   color: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
 }

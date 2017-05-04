@@ -234,6 +234,10 @@
             "url": "social"
           },
           {
+            "label": "portfolio",
+            "url": "portfolio"
+          },
+          {
             "label": "contact",
             "url": "contact"
           }
