@@ -6,5 +6,4 @@
     .menu-list
       input.menu-type-checkbox(type="checkbox", name="menu-icon", id="menu-icon-id" checked)
       each list in resume.home.menu.list
-        .menu-list-item 
-          a.menu-list-link(href=`#${list.url}`) #{list.label}      
+        a.menu-list-item.menu-list-link(href=`#${list.url}`) #{list.label}      

@@ -11,6 +11,10 @@ $class: 'menu';
   top: 0;
 }
 
+.#{$class}-list-wrapper:hover {
+  background-color: darken($color-red, 30);
+}
+
 @media (min-width: 30rem) {
   .#{$class}-list-wrapper {line-height: 1.5rem; display: flex; justify-content: center;align-items: center; padding: 0;}
   .#{$class}-list {display:flex; justify-content: center; text-align: center; padding: 0 1rem;}
@@ -50,13 +54,17 @@ $class: 'menu';
 .#{$class}-list-item:hover {
   color: $color-gossip;
   background: $color-asparagus;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  transition: 0.5s;
+  display: inline-block;
 }
 
 .#{$class}-type-checkbox:checked ~ .#{$class}-list-item {
   display: none;
 }
 
-.menu-type-checkbox {
+.#{$class}-type-checkbox {
   display: none;
 }
 
