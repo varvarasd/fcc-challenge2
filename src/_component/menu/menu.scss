@@ -13,6 +13,7 @@ $class: 'menu';
 
 .#{$class}-list-wrapper:hover {
   background-color: darken($color-red, 30);
+  padding: 0.05rem;
 }
 
 @media (min-width: 30rem) {
@@ -52,8 +53,8 @@ $class: 'menu';
 }
 
 .#{$class}-list-item:hover {
-  color: $color-gossip;
-  background: $color-asparagus;
+  color: darken($color-red, 30);
+  background: $color-nobel;
   border-radius: 0.2rem;
   margin: 0.2rem;
   transition: 0.5s;
