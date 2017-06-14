@@ -25,6 +25,8 @@
     "myresume":
     {
       "title": "my resume",
+      "button": "Download the Word version",
+      "url": "asset/doc/Resume_Daniel_Varvara.docx",
       "component":
       [
         {

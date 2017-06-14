@@ -4,6 +4,8 @@
   .myresume-wrapper
     .myresume-title #{resume.myresume.title}
     .myresume-underline #{resume.about.underline}
+    .myresume-download
+      a(href=resume.myresume.url) #{resume.myresume.button}
     each component in resume.myresume.component
       .myresume-component 
         .myresume-component-title #{component.title}
