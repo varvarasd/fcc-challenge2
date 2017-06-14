@@ -1,0 +1,16 @@
+.#{$class} {
+  width: 100%;
+}
+
+.#{$class}-wrapper {
+  background-color: $color-background;
+  width: 100%;
+}
+
+.#{$class}-portrait {
+  display: flex;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 0.5rem solid $color-ospace;
+}

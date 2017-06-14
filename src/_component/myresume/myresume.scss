@@ -5,7 +5,7 @@ $class: 'myresume';
   @extend %section-title;
   line-height: 1.2rem;
   text-align: center;
-  background-color: lighten($color-westar,9)
+  background-color: $color-background;
 }
 
 .#{$class}-wrapper {
@@ -134,3 +134,4 @@ $class: 'myresume';
     background-color: darken($color-westar, 10%)
   }
 }
+// ---------------------Download button

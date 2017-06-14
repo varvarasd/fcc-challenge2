@@ -4,8 +4,6 @@
   .myresume-wrapper
     .myresume-title #{resume.myresume.title}
     .myresume-underline #{resume.about.underline}
-    .myresume-download
-      a(href=resume.myresume.url) #{resume.myresume.button}
     each component in resume.myresume.component
       .myresume-component 
         .myresume-component-title #{component.title}
@@ -29,3 +27,8 @@
               .myresume-list
                 .myresume-list-title #{list.title}
                 .myresume-list-date #{list.date}
+
+    a.myresume-download(href=resume.myresume.url)
+      span.myresume-download-text #{resume.myresume.text}
+      span.myresume-download-icon(class=`new-cv-icon-${resume.myresume.icon}`)
+        
