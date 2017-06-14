@@ -88,8 +88,9 @@ $class: 'about';
   @extend %title-frame;
 }
 
-.#{$class}-details-item {
+.#{$class}-details-icon {
   font-weight: bold;
+  margin-left: 2.5rem
 }
 
 
@@ -106,4 +107,20 @@ $class: 'about';
   width: 3rem;
   font-size: 70%;
   border-radius: 5%;
+}
+
+input.more-box:checked ~ .#{$class}-details-hobbies-wrapper {
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.#{$class}-me-more  {
+  color: $color-blue;
+  cursor: pointer;
+  text-decoration:underline;
+  font-size: 0.5rem;
+}
+
+input {
+  display: none;
 }

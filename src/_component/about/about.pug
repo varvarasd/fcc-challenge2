@@ -7,12 +7,16 @@
       h1.about-me-title #{resume.about.title}
       span.about-me-underline #{resume.about.underline}
       p.about-me-content #{resume.about.content}
+      
+      label.about-me-more(for="more-box") Contact details and hobbies...      
+    
+    input.more-box(type="checkbox", name="more-box", id="more-box" checked) 
     .about-details-hobbies-wrapper
       .about-details
         .about-details-title #{resume.about.details.title}
         each content in resume.about.details.content
           .div-left
-            .about-details-item #{content.item}
+            span.about-details-icon(class=`new-cv-icon-${content.icon}`)
           .div-right
             .about-details-data #{content.data}
       .about-hobbies

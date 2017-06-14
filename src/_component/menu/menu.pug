@@ -1,9 +1,7 @@
 
 .menu
-  label.menu-list-wrapper(for="menu-icon-id") 
-    .menu-icon 
-      span.new-cv-icon-menu
-    .menu-list
-      input.menu-type-checkbox(type="checkbox", name="menu-icon", id="menu-icon-id" checked)
-      each list in resume.home.menu.list
-        a.menu-list-item.menu-list-link(href=`#${list.url}`) #{list.label}      
+  label.menu-icon-label(for="menu-icon-id") 
+    span.new-cv-icon-menu
+  input.menu-checkbox(type="checkbox", name="menu-icon", id="menu-icon-id" checked)
+  each list in resume.home.menu.list
+    a.menu-link(href=`#${list.url}`) #{list.label}      

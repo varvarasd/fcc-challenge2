@@ -1,8 +1,8 @@
 {
   "page":
   {
-    "pageTitle": "Daniel Varvara Resume",
-    "pageDescription": "Welcome to my resume website"
+    "pageTitle": "Daniel Varvara Portfolio",
+    "pageDescription": "Welcome to my portfolio"
   },
   "section":
   {
@@ -140,24 +140,20 @@
         "content":
         [
           {
-            "item": "Birthdate",
-            "data": "27.10.1983"
-          },
-          {
-            "item": "Phone",
+            "icon": "phone",
             "data": "07761 811 456"
           },
           {
-            "item": "Email",
+            "icon": "mail",
             "data": "varvara_sd@outlook.com"
           },
           {
-            "item": "Website",
+            "icon": "laptop",
             "data": "www.danvars.uk"
           },
           {
-            "item": "Address",
-            "data": "69 Corporation street, E15 3HB, London, UK"
+            "icon": "home",
+            "data": "Corporation street, E15 3HB, London, UK"
           }
         ]
       },
@@ -224,14 +220,6 @@
           {
             "label": "resume",
             "url": "resume"
-          },
-          {
-            "label": "skill",
-            "url": "skill"
-          },
-          {
-            "label": "social",
-            "url": "social"
           },
           {
             "label": "portfolio",

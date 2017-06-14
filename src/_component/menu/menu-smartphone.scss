@@ -1,0 +1,34 @@
+// @media (min-width: 30rem) {
+//   .#{$class}-list-wrapper {line-height: 1.5rem; display: flex; justify-content: center;align-items: center; padding: 0;}
+//   .#{$class}-list {display:flex; justify-content: center; text-align: center; padding: 0 1rem;}
+//   .#{$class}-list-link {display: block; width: 100%; padding: 0;}
+// }
+//
+// @media (max-width: 30rem) {
+//   .#{$class}-list-wrapper {font-size: 130%; line-height: 3rem; display: flex; justify-content: center;align-items: center; padding: 0;}
+//   .#{$class}-list {display:flex; justify-content: center; text-align: center; padding: 0 1rem;}
+//   .#{$class}-list-link {display: block; width: 100%; padding: 0;}
+// }
+
+.#{$class} {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.#{$class},
+.#{$class}-link {
+  background-color: $color-ospace;
+  color: $color-westar;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+.#{$class}-icon-label,
+.new-cv-icon-menu {
+  display: none;
+}

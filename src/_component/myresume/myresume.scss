@@ -48,9 +48,11 @@ $class: 'myresume';
 .#{$class}-card-wrapper {
   background-color: lighten($color-westar, 5);
   padding: 0.1rem 0;
-  margin: 0.5rem;
+  margin: auto;
   border-radius: 0.3rem;
   border: 0.07rem solid darken($color-westar, 10%);
+  width: 60%;
+
 }
 
 .#{$class}-card-title {
@@ -95,12 +97,6 @@ $class: 'myresume';
   border-bottom: 0.07rem solid darken($color-westar, 30%);
 }
 
-.fa.fa-angle-double-down {
-  font-size: 50%;
-  display: block;
-  color: $color-mojo;
-}
-
 .#{$class}-card-company,
 .#{$class}-card-date {
   text-transform: capitalize;
@@ -110,11 +106,6 @@ $class: 'myresume';
   font-style: oblique;
   font-size: 60%;
   color: darken($color-westar, 50);
-}
-.myresume-card-title,
-.fa.fa-angle-double-down {
-  cursor: pointer;
-  border-radius: 2rem 2rem 0 0;
 }
 
 .#{$class}-card-responsability {

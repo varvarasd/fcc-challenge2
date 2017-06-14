@@ -9,10 +9,6 @@ html, body {
   font-family: sans-serif;
 }
 
-html {
-  font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
-}
-
 %uppercase {
   text-transform: uppercase;
   font-weight: bold;
