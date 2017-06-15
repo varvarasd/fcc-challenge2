@@ -1,0 +1,122 @@
+.#{$class} {
+  text-align: center;
+}
+
+.#{$class}-title {
+  @extend %uppercase;
+  margin-top: 1rem;
+}
+
+.#{$class}-underline {
+  @extend %underline;
+}
+
+.#{$class}-component {
+  line-height: 1rem;
+}
+
+.#{$class}-component-title {
+  @extend %uppercase;
+  font-size: 90%;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 2rem 0 ;
+  display: inline-block;
+  background-color: $color-westar;
+  border-radius: 0.3rem;
+  letter-spacing: 0.05rem;
+}
+
+.#{$class}-card,
+.#{$class}-list {
+  font-size: 80%;
+}
+
+.#{$class}-card-wrapper {
+  background-color: lighten($color-westar, 5);
+  padding: 0.5rem 0;
+  margin: 0.5rem auto;
+  border-radius: 0.3rem;
+  border: 0.07rem solid darken($color-westar, 10%);
+  width: 95%;
+}
+
+.#{$class}-card-title {
+  padding: 0.2rem;
+  line-height: 1.5rem;
+}
+
+.#{$class}-card-title,
+.#{$class}-card-details {
+  text-transform: capitalize;
+}
+
+.#{$class}-card-top {
+  border: none;
+}
+
+.#{$class}-card-body {
+  background-color: darken($color-westar, 3%);
+  padding: 1rem;
+  text-align: left;
+}
+
+.#{$class}-card-checkbox {
+  display: none;
+}
+
+.#{$class}-card-checkbox:checked + .#{$class}-card-body {
+  display: none;
+}
+
+.#{$class}-card {
+  background-color: darken($color-westar, 3%);
+  border-radius: 2rem 2rem 0 0;
+  margin: 1rem;
+  &:hover {
+    background-color: darken($color-westar, 20%);
+  }
+}
+
+.#{$class}-card-top {
+  border-bottom: 0.07rem solid darken($color-westar, 30%);
+}
+
+.#{$class}-card-company,
+.#{$class}-card-date {
+  text-transform: capitalize;
+}
+
+.#{$class}-card-date {
+  font-style: oblique;
+  font-size: 60%;
+  color: darken($color-westar, 50);
+}
+
+.#{$class}-card-responsability {
+  padding: 0.2rem 0;
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+// --------------------EDUCATION
+
+.#{$class}-list-wrapper {
+  border: 0.07rem solid darken($color-westar, 10%);
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.#{$class}-list {
+  font-size: 70%;
+  padding: 0 0.5rem;
+  text-align: left;
+  &:nth-child(even) {
+    background-color: lighten($color-westar, 5);
+  }
+  &:nth-child(odd) {
+    background-color: darken($color-westar, 10%)
+  }
+}
+// ---------------------Download button
