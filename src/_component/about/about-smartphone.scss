@@ -14,3 +14,26 @@
   border-radius: 50%;
   border: 0.5rem solid $color-ospace;
 }
+
+.#{$class}-me-wrapper {
+  text-align: center;
+  @extend %wrapper;
+}
+
+.#{$class}-me-title {
+  font-size: 150%;
+  @extend %uppercase;
+}
+
+.#{$class}-me-content {
+  text-align: justify;
+  text-indent: 1.5rem;
+}
+
+.#{$class}-me-underline {
+  @extend %underline;
+}
+
+.#{$class}-me-content {
+  margin-top: 2rem;
+}

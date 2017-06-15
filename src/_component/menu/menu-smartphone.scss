@@ -13,7 +13,6 @@
 .#{$class} {
   position: sticky;
   top: 0;
-  width: 100%;
 }
 
 .#{$class},
@@ -35,13 +34,9 @@
   &:hover {
     color: $color-ospace;
     background-color: $color-background;
-    font-weight: bold;
-    //padding: 0.1rem;
-    transition: 0.3s;
-    //border: 0.01rem solid $color-ottoman;
-    margin: 0.2rem 0.1rem 0 0.1rem;
+    transition: 0.5s ease-in;
+    margin: 0.1rem 0.1rem 0 0.1rem;
     border-radius: 0.3rem 0.3rem 0 0;
-    //margin-bottom: 0.2rem;
   }
 }
 
