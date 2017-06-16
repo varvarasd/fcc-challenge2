@@ -6,6 +6,28 @@
   },
   "section":
   {
+    "title": "Portfolio",
+    "content":
+    [
+      {
+        "title": "Cool Resume",
+        "url": "asset/image/cool-cv.png",
+        "link": "https://varvarasd.github.io/cool-cv/",
+        "text": "Check out my awesome resume"
+      },
+      {
+        "title": "My Blog",
+        "url": "asset/image/quick-blog.png",
+        "link": "https://varvarasd.github.io/my-blog/",
+        "text": "Check out my awesome blog"
+      },
+      {
+        "title": "Tribute FCC Challenge",
+        "url": "asset/image/tribute.png",
+        "link": "https://varvarasd.github.io/fcc-challenge/",
+        "text": "Check out my awesome tribute page as Freecodecamp challenge"
+      }
+    ],
     "skill":
     {
       "title": "Skills",

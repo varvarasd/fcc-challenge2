@@ -4,7 +4,7 @@
 
 .#{$class}-title {
   @extend %uppercase;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .#{$class}-underline {
@@ -17,14 +17,7 @@
 
 .#{$class}-component-title {
   @extend %uppercase;
-  font-size: 90%;
-  text-align: center;
-  padding: 0.5rem;
-  margin: 2rem 0 ;
-  display: inline-block;
-  background-color: $color-westar;
-  border-radius: 0.3rem;
-  letter-spacing: 0.05rem;
+  @extend %component-title;
 }
 
 .#{$class}-card,
@@ -34,8 +27,8 @@
 
 .#{$class}-card-wrapper {
   background-color: lighten($color-westar, 5);
-  padding: 0.5rem 0;
-  margin: 0.5rem auto;
+  padding: 0.5rem;
+  margin: 0.5rem;
   border-radius: 0.3rem;
   border: 0.07rem solid darken($color-westar, 10%);
   width: 95%;
@@ -120,3 +113,20 @@
   }
 }
 // ---------------------Download button
+
+.#{$class}-download-wrapper {
+  @extend %component-title;
+  cursor: pointer;
+  background-color: $color-gossip
+}
+
+.#{$class}-download {
+  cursor: pointer;
+  text-decoration: none;
+  color: $color-ospace;
+  font-weight: bold;
+}
+
+.#{$class}-download-icon {
+  padding: 0.3rem;
+}

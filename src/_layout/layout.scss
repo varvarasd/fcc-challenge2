@@ -15,6 +15,17 @@ html, body {
   font-weight: bold;
 }
 
+%component-title {
+  font-size: 90%;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 2rem 0 1rem 0 ;
+  display: inline-block;
+  background-color: $color-westar;
+  border-radius: 0.3rem;
+  letter-spacing: 0.05rem;
+}
+
 %section {
   min-height: 100vh;
 }

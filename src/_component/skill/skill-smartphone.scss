@@ -1,0 +1,34 @@
+.#{$class} {
+ text-align: center;
+ margin-top: 1rem;
+}
+
+.#{$class}-title {
+  @extend %uppercase;
+  @extend %component-title;
+  display: block;
+  width: 30%;
+  margin: 1rem auto;
+}
+
+.#{$class}-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.#{$class}-item {
+  &:nth-child(odd) {
+    background-color: $color-amazon;
+    color: $color-ottoman;
+  }
+  &:nth-child(even) {
+    background-color: $color-amber;
+  }
+  padding: 0.5rem;
+  width: 40%;
+  margin: 0.1rem auto;
+  font-size: 70%;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+}

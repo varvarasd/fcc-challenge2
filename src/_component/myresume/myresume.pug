@@ -26,8 +26,8 @@
               .myresume-list
                 .myresume-list-title #{list.title}
                 .myresume-list-date #{list.date}
-
-    a.myresume-download(href=resume.myresume.url)
-      span.myresume-download-text #{resume.myresume.text}
-      span.myresume-download-icon(class=`new-cv-icon-${resume.myresume.icon}`)
-        
+    .myresume-download-wrapper
+      a.myresume-download(href=resume.myresume.url)
+        span.myresume-download-text #{resume.myresume.text}
+        span.myresume-download-icon(class=`new-cv-icon-${resume.myresume.icon}`)
+          

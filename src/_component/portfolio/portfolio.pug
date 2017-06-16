@@ -1,0 +1,8 @@
+#portfolio
+.portfolio
+  .portfolio-title #{resume.title}
+  each content in resume.content
+    .portfolio-title #{content.title}
+    a.portfolio-link(href=content.link) 
+      img.portfolio-image(src=content.url)
+    caption.portfolio-caption #{content.text}
