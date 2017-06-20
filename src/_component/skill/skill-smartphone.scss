@@ -13,10 +13,12 @@
 
 .#{$class}-content {
   width: 90%;
+  padding: 1rem 0.5rem;
   margin: 0 auto;
 }
 
 .#{$class}-item {
+  box-shadow: 0 0 20px 1px $color-ospace;
   &:nth-child(odd) {
     background-color: $color-amazon;
     color: $color-ottoman;

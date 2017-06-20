@@ -12,7 +12,8 @@
 
 .#{$class} {
   position: sticky;
-  top: 0;
+  top: 95%;
+  bottom: 0;
 }
 
 .#{$class},
@@ -27,6 +28,7 @@
   display:flex;
   align-items: center;
   justify-content: center;
+  height: 2rem;
 }
 
 .#{$class}-link {
@@ -35,8 +37,8 @@
     color: $color-ospace;
     background-color: $color-background;
     transition: 0.5s ease-in;
-    margin: 0.1rem 0.1rem 0 0.1rem;
-    border-radius: 0.3rem 0.3rem 0 0;
+    //margin: 0 0.2rem 0.2rem 0.2rem;
+    border-radius: 0 0 0.3rem 0.3rem;
   }
 }
 

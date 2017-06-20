@@ -1,8 +1,9 @@
 #portfolio
 .portfolio
   .portfolio-title #{resume.title}
+  .portfolio-underline #{resume.about.underline}
   each content in resume.content
-    .portfolio-title #{content.title}
-    a.portfolio-link(href=content.link) 
+    .portfolio-subtitle #{content.title}
+    a.portfolio-link(href=content.link, target="_blank")    
       img.portfolio-image(src=content.url)
-    caption.portfolio-caption #{content.text}
+      .portfolio-caption #{content.text}
