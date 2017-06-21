@@ -1,15 +1,15 @@
 #contact
-input.more-box(type="checkbox", name="more-box", id="more-box" checked) 
-.about-details-hobbies-wrapper
-  .about-details
-    .about-details-title #{resume.about.details.title}
-    each content in resume.about.details.content
-      .div-left
-        span.about-details-icon(class=`new-cv-icon-${content.icon}`)
-      .div-right
-        .about-details-data #{content.data}
-  .about-hobbies
-    .about-hobbies-title #{resume.about.hobbies.title}
-    each content in resume.about.hobbies.content
-      span.about-hobbies-icon(class=`new-cv-icon-${content.icon}`)
-        .about-hobbies-item #{content.item}
+
+.contact-social
+  .contact-social-title #{resume.about.social.title}
+  each content in resume.about.social.content
+    span.contact-social-icon(class=`new-cv-icon-${content.icon}`)
+      .contact-social-item #{content.item}
+ 
+.contact-wrapper
+  .contact-title #{resume.about.contact.title}
+  each content in resume.about.contact.content
+    .contact-left
+      span.contact-icon(class=`new-cv-icon-${content.icon}`)
+    .contact-right
+      .contact-data #{content.data}

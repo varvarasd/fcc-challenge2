@@ -159,9 +159,9 @@
       "title": "about me",
       "underline": "______",
       "content": ["A conscientious and enthusiastic individual with experience in various working fields, driven by a true interest in knowledge and motivated by high goals. I am currently seeking a new role as a Junior Web Developer. I’m an ambitious problem solver with a natural passion for coding, heart for art and science and I  would like to join a team of like-minded people in a supportive yet challenging environment. I am thorough and focused in everything I do with a keen interest in all web development technologies. I have a sharp eye for details and ready to go the extra mile."],
-      "details":
+      "contact":
       {
-        "title": "Details",
+        "title": "Contact",
         "content":
         [
           {
@@ -182,38 +182,22 @@
           }
         ]
       },
-      "hobbies":
+      "social":
       {
-        "title": "Hobbies & Interests",
+        "title": "Social",
         "content":
         [
           {
-            "item": "Books",
-            "icon": "book"
+            "item": "GitHub",
+            "icon": "github"
           },
           {
-            "item": "Art",
-            "icon": "magic-wand"
+            "item": "LinkedIn",
+            "icon": "linkedin"
           },
           {
-            "item": "Coding",
-            "icon": "terminal"
-          },
-          {
-            "item": "Games",
-            "icon": "display"
-          },
-          {
-            "item": "Music",
-            "icon": "headphones"
-          },
-          {
-            "item": "Travel",
-            "icon": "airplane"
-          },
-          {
-            "item": "Cinema",
-            "icon": "video-camera"
+            "item": "Facebook",
+            "icon": "facebook2"
           }
         ]
       }
