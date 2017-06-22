@@ -1,15 +1,14 @@
 #contact
-
 .contact-social
   .contact-social-title #{resume.about.social.title}
+.contact-social-body
   each content in resume.about.social.content
-    span.contact-social-icon(class=`new-cv-icon-${content.icon}`)
-      .contact-social-item #{content.item}
+    a.contact-social-link(href=content.link, target="_blank")
+      .contact-social-icon(class=`new-cv-icon-${content.icon}`)
  
-.contact-wrapper
-  .contact-title #{resume.about.contact.title}
+.contact-details
+  .contact-details-title #{resume.about.contact.title}
+.contact-details-body  
   each content in resume.about.contact.content
-    .contact-left
-      span.contact-icon(class=`new-cv-icon-${content.icon}`)
-    .contact-right
-      .contact-data #{content.data}
+    .contact-details-icon(class=`new-cv-icon-${content.icon}`) 
+      span.contact-details-data #{content.data}

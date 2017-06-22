@@ -1,0 +1,84 @@
+.#{$class}-social {
+  display: flex;
+  margin: 2rem auto;
+  justify-content: center;
+}
+
+.#{$class}-social-title {
+  @extend %component-title;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.#{$class}-social-body {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.#{$class}-social-link {
+  text-decoration: none;
+}
+
+.#{$class}-social-icon {
+  color: $color-amber;
+  background-color: $color-ospace;
+  padding: 0.5rem;
+  border: 0.1rem solid $color-amber;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 15px 1px $color-ospace;
+}
+
+//------------------------ contact
+
+.#{$class}-details {
+  display: flex;
+  justify-content: center;
+}
+
+.#{$class}-details-title {
+  @extend %component-title;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5rem;
+}
+
+.#{$class}-details-body {
+  background-color: black;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  display: inline-block;
+}
+
+.#{$class}-details-icon {
+  font-size: 1.2rem;
+  &:first-child {
+    background-color: lighten(black, 30);
+    font-size: 90%;
+    border-radius: inherit;
+    height: 1.5rem;
+    padding: 0.3rem;
+    &:first-letter {
+      background-color: darken($color-red, 10);
+      padding: 0.1rem 0.4rem;
+      margin-left: -0.5rem;
+      border-radius: 5rem;
+    }
+  }
+}
+
+.new-cv-icon-phone,
+.new-cv-icon-mail,
+.new-cv-icon-laptop,
+.new-cv-icon-home,
+.#{$class}-details-data {
+  padding: 0.5rem;
+  color: white;
+}
+
+.#{$class}-details-data {
+  font-family: monospace;
+}

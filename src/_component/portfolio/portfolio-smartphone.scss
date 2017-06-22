@@ -16,15 +16,25 @@
 .#{$class}-subtitle {
   @extend %component-title;
   margin: 3rem 0 1.5rem 0;
-  //font-weight: bold;
 }
 
 .#{$class}-link {
-  //border: 0.1rem solid black;
   width: 250px;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
+  padding: 0.2rem;
+  box-shadow: 10px 10px 15px 1px $color-ospace;
+  border: 0.1rem solid $color-amazon;
+  text-decoration: none;
+}
+
+.#{$class}-caption {
   padding: 0.5rem;
-  box-shadow: 0 0 15px 1px $color-ospace;
+  font-size: 80%;
+  color: $color-amazon;
+}
+
+.#{$class}-image {
+  border: 0.01rem solid $color-amazon;
 }
