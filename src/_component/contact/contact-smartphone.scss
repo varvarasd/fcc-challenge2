@@ -7,6 +7,7 @@
   @extend %component-title;
   text-transform: uppercase;
   font-weight: bold;
+  margin: 3rem auto;
 }
 
 .#{$class}-social-body {
@@ -15,7 +16,7 @@
   font-size: 2rem;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  margin: 3rem auto;
 }
 
 .#{$class}-social-link {
