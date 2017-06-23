@@ -12,9 +12,9 @@
 
 .#{$class} {
   position: fixed;
-  top: 60%;
+  top: 50%;
   right: -100%;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
   width: 20%;
 }
 
@@ -57,7 +57,7 @@
   padding: 0 0.2rem;
   border-radius: 0.5rem;
   left: 85%;
-  top: 92%;
+  top: 85%;
   font-size: 2rem;
   color: darken($color-amber, 10);
   border: 0.1rem solid darken($color-red, 20);
