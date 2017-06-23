@@ -42,12 +42,54 @@
         "Gulp",
         "Git",
         "Github"
-      ]
-    },
+        ]
+      },
+      "drawing":
+      {
+        "title": "Drawing",
+        "content":
+        [
+          {
+            "url": "asset/image/1.jpg",
+            "link": "asset/image/1.jpg",
+            "text": "image 1 description"
+          },
+          {
+            "url": "asset/image/2.jpg",
+            "link": "asset/image/2.jpg",
+            "text": "image 2 description"
+          },
+          {
+            "url": "asset/image/3.jpg",
+            "link": "asset/image/3.jpg",
+            "text": "image 3 description"
+          },
+          {
+            "url": "asset/image/4.jpg",
+            "link": "asset/image/4.jpg",
+            "text": "image 4 description"
+          },
+          {
+            "url": "asset/image/5.jpg",
+            "link": "asset/image/5.jpg",
+            "text": "image 5 description"
+          },
+          {
+            "url": "asset/image/6.jpg",
+            "link": "asset/image/6.jpg",
+            "text": "image 6 description"
+          },
+          {
+            "url": "asset/image/7.jpg",
+            "link": "asset/image/7.jpg",
+            "text": "image 7 description"
+          }
+        ]
+      },
     "myresume":
     {
       "title": "my resume",
-      "text": "Tap to download the Word version",
+      "text": "Download the Word version",
       "url": "asset/doc/Resume_Daniel_Varvara.docx",
       "icon": "file-word",
       "component":
@@ -158,7 +200,17 @@
       },
       "title": "about me",
       "underline": "______",
-      "content": ["A conscientious and enthusiastic individual with experience in various working fields, driven by a true interest in knowledge and motivated by high goals. I am currently seeking a new role as a Junior Web Developer. I’m an ambitious problem solver with a natural passion for coding, heart for art and science and I  would like to join a team of like-minded people in a supportive yet challenging environment. I am thorough and focused in everything I do with a keen interest in all web development technologies. I have a sharp eye for details and ready to go the extra mile."],
+      "content": [
+        "First of all :",
+        "Hi, and thank you for taking the time to read this.",
+        "I like to think I'm a highly creative individual (please see my awesome sketches below. I mean REALLY see them and let your mind play with its perception) with a heart for art and head for science.",
+        "When I discovered coding I thought to myself while enjoying the 'extraordinary discovery' (those two seconds of dopamine induced movement, thought and sensation throughout), my mouth wispered 'I want more!' in the very familiar Mortal Kombat 'Fatality voice' just like a zombie, so yeah I was hooked, I mean through the chest like in those horror movies , only the hook is similar to Donnie Darko's 'liquid tunnel of intention' if I may. \n I'm self motivated and in constant competition with myself, and really I think everyone should be at least 50%  of our time. I have a keen interest in all technologies and I can't really not have it this way, I tried but it's the only way I can give birth to my ideas and get rid of them otherwise they just pile up like packs of toilet paper everyone in your usual shared house decided to buy in the same day.",
+        "I'm gonna stop here for now.",
+        " I hope you've enjoyed reading this and if you'd like to get professional with me I'll be more than happy to reply.",
+        "Please see my contact details below.",
+        "It was nice having you and I hope you'll enjoy the rest.",
+        "Have a great week! and I mean that.",
+        "Really!"],
       "contact":
       {
         "title": "Contact",

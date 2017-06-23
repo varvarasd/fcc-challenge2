@@ -12,7 +12,7 @@
 
 .#{$class} {
   position: fixed;
-  top: 40%;
+  bottom: 40%;
   right: -100%;
   transition: 0.3s ease-in-out;
   width: 20%;
@@ -44,7 +44,7 @@
     transition: 0.5s ease-in;
   }
   &:last-child {
-    border-bottom: 0.01rem solid darken($color-red, 20);
+    border-bottom: 0.01rem solid $color-ospace;
   }
 }
 
@@ -56,7 +56,7 @@
   position: fixed;
   padding: 0 0.2rem;
   border-radius: 0.5rem;
-  left: 85%;
+  left: 81%;
   top: 85%;
   font-size: 2rem;
   color: darken($color-amber, 10);

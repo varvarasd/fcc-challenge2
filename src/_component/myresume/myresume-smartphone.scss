@@ -121,10 +121,11 @@
 // ---------------------Download button
 
 .#{$class}-download-wrapper {
+  margin: 1rem;
   @extend %component-title;
   cursor: pointer;
   background-color: $color-gossip;
-  box-shadow: 0 0 10px 1px $color-ospace;
+  box-shadow: 10px 10px 15px 1px $color-ospace;
 }
 
 .#{$class}-download {

@@ -3,6 +3,7 @@
 }
 
 .#{$class}-wrapper {
+  display: inline-block;
   background-color: $color-background;
   width: 100%;
 }
@@ -15,9 +16,14 @@
   border: 0.5rem solid $color-ospace;
 }
 
+.#{$class}-portrait-wrapper {
+  display: block;
+}
+
 .#{$class}-me-wrapper {
   text-align: center;
   @extend %wrapper;
+  margin-bottom: 2rem;
 }
 
 .#{$class}-me-title {
@@ -27,12 +33,13 @@
 .#{$class}-me-content {
   text-align: justify;
   text-indent: 1.5rem;
+  line-height: 1.3rem;
+  word-spacing: -0.1rem;
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .#{$class}-me-underline {
   @extend %underline;
-}
-
-.#{$class}-me-content {
-  margin-top: 2rem;
+  margin: 3rem auto;
 }

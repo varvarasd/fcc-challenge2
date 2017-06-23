@@ -34,3 +34,49 @@
   display: inline-flex;
   justify-content: center;
 }
+
+//------------------------ Drawing section (and I don't mean you should draw here.
+//-  I know you know. But just sayin' ;) :D. Funny, no? ok. good.)
+.#{$class}-drawing {
+  width: 100%;
+}
+
+.#{$class}-drawing-top {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+
+.#{$class}-drawing-title {
+  @extend %uppercase;
+  @extend %component-title;
+}
+
+.#{$class}-drawing-content {
+  background-image: url("asset/image/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+
+
+.#{$class}-drawing-link {
+  display: inline-flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.#{$class}-drawing-image {
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border: 0.1rem solid $color-ospace;
+  background-color: $color-background;
+  box-shadow:  10px 10px 15px 1px $color-ospace;
+  &:hover {
+    background-color: $color-amber;
+  }
+}

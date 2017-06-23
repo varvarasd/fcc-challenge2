@@ -1,3 +1,7 @@
+.contact-details
+  .contact-details-title #{resume.about.contact.title}
+  .contact-details-underline #{resume.about.underline}
+#contact
 .contact-social
   .contact-social-title #{resume.about.social.title}
 .contact-social-body
@@ -5,9 +9,6 @@
     a.contact-social-link(href=content.link, target="_blank")
       .contact-social-icon(class=`new-cv-icon-${content.icon}`)
  
-#contact
-.contact-details
-  .contact-details-title #{resume.about.contact.title}
 .contact-details-body  
   each content in resume.about.contact.content
     .contact-details-icon(class=`new-cv-icon-${content.icon}`) 
