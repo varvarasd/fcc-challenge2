@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+
+  .#{$class}-portrait-wrapper {
+    margin: 4rem;
+  }
+
+  .#{$class}-me-wrapper {
+    font-size: 200%;
+  }
+
+  .#{$class}-me-content {
+    font-size: 200%;
+    line-height: 2rem;
+  }
+}

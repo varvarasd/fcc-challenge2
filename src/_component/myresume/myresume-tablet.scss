@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+//--------- experience
+  .#{$class}-title, 
+  .#{$class}-underline {
+    font-size: 300%;
+  }
+
+  .#{$class}-component-title {
+    font-size: 200%;
+    padding: 1.5rem;
+    margin: 4rem;
+  }
+
+  .#{$class}-card-wrapper {
+    padding: 2rem;
+  }
+
+  .#{$class}-card {
+    font-size: 200%;
+    line-height: 2.2rem;
+  }
+
+  .#{$class}-card-title {
+    padding: 0.8rem;
+  }
+
+  .#{$class}-card-top {
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+//------------ education
+
+  .#{$class}-list-wrapper {
+    font-size: 220%;
+    line-height: 2rem;
+  }
+
+  .#{$class}-list {
+    padding: 0.5rem;
+  }
+
+//----------- download button
+
+  .#{$class}-download-wrapper {
+    font-size: 200%;
+    padding: 1.5rem;
+    margin: 3rem auto;
+  }
+
+
+
+}

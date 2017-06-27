@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+
+  .#{$class} {
+    padding: 5rem;
+  }
+
+  .#{$class}-title,
+  .#{$class}-underline {
+    font-size: 300%;
+  }
+
+  .#{$class}-subtitle {
+    font-size: 200%;
+    padding: 1rem;
+    margin: 5rem;
+  }
+
+  .#{$class}-link {
+    width: 520px;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .#{$class}-image {
+    width: 500px;
+    height: 350px;
+  }
+
+  .#{$class}-caption {
+    font-size: 150%;
+  }
+
+
+}

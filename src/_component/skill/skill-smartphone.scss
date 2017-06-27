@@ -6,9 +6,6 @@
 .#{$class}-title {
   @extend %uppercase;
   @extend %component-title;
-  display: block;
-  width: 30%;
-  margin: 2rem auto;
 }
 
 .#{$class}-content {
@@ -69,8 +66,8 @@
 }
 
 .#{$class}-drawing-image {
-  width: 100px;
-  height: 100px;
+  width: 7rem;
+  height: 7rem;
   margin: 0.5rem;
   padding: 0.2rem;
   border: 0.1rem solid $color-ospace;

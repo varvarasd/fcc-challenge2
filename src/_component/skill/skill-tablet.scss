@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+
+  .#{$class}-title,
+  .#{$class}-drawing-title {
+    font-size: 200%;
+    padding: 1rem;
+    margin: 4rem;
+  }
+
+  .#{$class}-item {
+    font-size: 150%;
+    padding: 1rem;
+    margin: 0.2rem;
+  }
+
+  .#{$class}-drawing-image {
+    width: 80%;
+    height: 75%;
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+
+}

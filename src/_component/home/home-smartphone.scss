@@ -1,0 +1,59 @@
+
+.#{$class} {
+  @extend %section;
+  @extend %section-title;
+  background-image: url(asset/image/background-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100vw;
+}
+
+.#{$class}-author {
+  font-size: 200%;
+  border-bottom: 0.01rem solid black;
+  display: flex;
+  @extend %title-frame;
+
+}
+
+.#{$class}-title {
+  @extend %title-frame;
+}
+.#{$class}-wrapper {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    .#{$class}-text {
+      visibility: visible;
+    }
+  }
+}
+
+.#{$class}-text {
+  font-size: 80%;
+  font-weight: normal;
+  color: $color-ospace;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  visibility: hidden;
+}
+
+.arrow-down {
+  @extend %arrow-down;
+}
+
+.arrow-down:hover {
+  @extend %arrow-down-hover;
+  transition: 0.2s;
+}
