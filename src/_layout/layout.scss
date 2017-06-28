@@ -31,10 +31,6 @@ html, body {
   min-height: 100vh;
 }
 
-%underline {
-  color: $color-red;
-}
-
 %section-title {
   @extend %noselect;
 }

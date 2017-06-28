@@ -44,7 +44,7 @@
 }
 
 .#{$class}-details-underline {
-  @extend %underline;
+  color: $color-red;
 }
 
 .#{$class}-details-body {

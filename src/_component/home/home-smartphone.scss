@@ -7,8 +7,6 @@
   background-position: center center;
   background-size: cover;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   display: flex;
   width: 100vw;
 }
@@ -51,9 +49,4 @@
 
 .arrow-down {
   @extend %arrow-down;
-}
-
-.arrow-down:hover {
-  @extend %arrow-down-hover;
-  transition: 0.2s;
 }

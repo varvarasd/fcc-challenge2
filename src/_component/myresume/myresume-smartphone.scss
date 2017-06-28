@@ -8,7 +8,7 @@
 }
 
 .#{$class}-underline {
-  @extend %underline;
+  color: $color-red;
 }
 
 .#{$class}-component {
