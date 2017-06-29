@@ -4,4 +4,9 @@
     line-height: 4rem;
     font-size: 150%;
   }
+
+  .#{$class}-toggle {
+    font-size: 3rem;
+    padding: 0.2rem 0.5rem;
+  }
 }

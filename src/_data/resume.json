@@ -278,12 +278,12 @@
             "url": "resume"
           },
           {
-            "label": "portfolio",
-            "url": "portfolio"
-          },
-          {
             "label": "drawing",
             "url": "drawing"
+          },
+          {
+            "label": "portfolio",
+            "url": "portfolio"
           },
           {
             "label": "contact",
