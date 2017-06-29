@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+
+  .#{$class}-details-underline,
+  .#{$class}-details-title {
+    font-size: 300%;
+  }
+
+  .#{$class}-social-title {
+    font-size: 200%;
+  }
+
+  .#{$class}-social-body {
+    font-size: 350%;
+    padding: 1.5rem;
+  }
+  .#{$class}-social-icon {
+    padding: 1rem;
+    border: 0.2rem solid $color-amber;
+  }
+
+//---------------- contact details
+
+  .#{$class}-details-icon {
+    font-size: 250%;
+    &:first-child {
+      font-size: 150%;
+      height: 2.5rem;
+      padding: 0.5rem;
+    }
+  }
+
+
+}
