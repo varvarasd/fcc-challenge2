@@ -8,7 +8,8 @@ html
     meta(name="description", content=data.resume.page.pageDescription)
     
     meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
-    
+    if config.entry.css.inline
+      link(rel="stylesheet", href="inline.css")
   body
     .container
       block content
