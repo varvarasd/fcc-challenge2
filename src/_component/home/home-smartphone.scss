@@ -13,7 +13,7 @@
 
 .#{$class}-author {
   font-size: 200%;
-  border-bottom: 0.01rem solid black;
+  border-bottom: 0.01rem solid red;
   display: flex;
   @extend %title-frame;
 

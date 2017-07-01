@@ -6,6 +6,10 @@
 
   .#{$class}-title {
     font-size: 200%;
+    margin: 1rem auto;
+    padding-top: 10%;
+    width: 80%;
+    border-top: 0.01rem solid $color-ospace;
   }
 
   .#{$class}-underline {
@@ -14,13 +18,6 @@
     padding-bottom: 4rem;
     width: 40%;
     margin: 0 auto;
-  }
-
-  .#{$class}-title {
-    margin: 1rem auto;
-    padding-top: 10%;
-    width: 80%;
-    border-top: 0.01rem solid $color-ospace;
   }
 
   .#{$class}-component-title {
@@ -36,5 +33,17 @@
     font-size: 110%;
   }
 
+  .#{$class}-list-wrapper {
+    width: 70%;
+  }
+
+  .#{$class}-list {
+    font-size: 50%;
+  }
+
+  .#{$class}-download-wrapper {
+    font-size: 100%;
+    padding: 1rem;
+  }
 
 }

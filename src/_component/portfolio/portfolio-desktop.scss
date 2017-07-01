@@ -1,0 +1,19 @@
+@media (min-width: 1280px) {
+
+  .#{$class}-title {
+    font-size: 200%;
+  }
+
+  .#{$class}-underline {
+    font-size: 120%;
+    border-bottom: 0.01rem solid $color-ospace;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 40%;
+  }
+
+  .#{$class}-subtitle {
+    font-size: 110%;
+  }
+
+}

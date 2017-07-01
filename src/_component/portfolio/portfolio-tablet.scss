@@ -16,16 +16,16 @@
   }
 
   .#{$class}-link {
-    width: 520px;
-    height: 370px;
+    width: 450px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .#{$class}-image {
-    width: 500px;
-    height: 350px;
+    width: 100%;
+    height: auto;
   }
 
   .#{$class}-caption {

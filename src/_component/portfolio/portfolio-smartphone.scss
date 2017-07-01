@@ -1,4 +1,5 @@
 .#{$class} {
+  display: block;
   text-align: center;
 }
 
@@ -25,12 +26,6 @@
   box-shadow: 10px 10px 15px 1px $color-ospace;
   border: 0.1rem solid $color-amazon;
   text-decoration: none;
-}
-
-.#{$class}-caption {
-  padding: 0.5rem;
-  font-size: 80%;
-  color: $color-amazon;
 }
 
 .#{$class}-image {

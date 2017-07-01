@@ -1,5 +1,11 @@
-@media (min-width: 1280) {
-  .#{$class}-title {
-    font-size: 50%;
+@media (min-width: 1280px) {
+  .#{$class}-title,
+  .#{$class}-drawing-title {
+    font-size: 120%;
+  }
+
+  .#{$class}-drawing-image {
+    width: 50%;
+    height: 50%;
   }
 }
