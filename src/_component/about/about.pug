@@ -6,7 +6,6 @@
     .about-me-wrapper
       h1.about-me-title #{resume.about.title}
       span.about-me-underline #{resume.about.underline}
-    each contentItem in resume.about.content
-      .about-me-content
-        p #{contentItem}         
-    #resume 
+  each contentItem in resume.about.content
+    .about-me-content
+      p #{contentItem}         

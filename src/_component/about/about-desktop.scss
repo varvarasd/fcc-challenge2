@@ -1,124 +1,35 @@
-//
-// .#{$class} {
-//   @extend %section;
-//   text-align: center;
-// }
-//
-// .#{$class}-wrapper {
-//   margin: 4rem 0 4rem;
-//   display: inline-block;
-// }
-//
-// .#{$class}-me-wrapper {
-//   @extend %wrapper;
-// }
-//
-// .#{$class}-details-title,
-// .#{$class}-hobbies-title {
-//   @extend %title-frame;
-// }
-//
-// .#{$class}-portrait-wrapper,
-// .#{$class}-me-wrapper {
-//   @extend %section-title;
-// }
-//
-// .#{$class}-portrait {
-//   border-radius: 50%;
-//   padding: 0.3rem;
-//   border: 0.3rem solid $color-ospace;
-// }
-//
-// .#{$class}-me-title {
-//   font-size: 150%;
-//   @extend %uppercase;
-// }
-// .#{$class}-me-underline {
-//   @extend %underline;
-// }
-//
-// .#{$class}-me-content {
-//   margin: 2rem 0 2rem 0;
-//   line-height: 1.2rem;
-//   text-align: justify;
-//   text-indent: 1.5rem;
-//   font-size: 0.8rem;
-// }
-// %details-frame {
-//   width: 50%;
-//   margin: 0;
-// }
-//
-// .#{$class} {
-//   margin: 0 auto;
-//   padding: 0;
-// }
-//
-// .#{$class}-details,
-// .#{$class}-hobbies {
-//   @extend %details-frame;
-//   @extend %wrapper;
-// }
-//
-// .#{$class}-details {
-//   float: left;
-// }
-// .div-left,
-// .div-right {
-//   text-align: left;
-//   line-height: 1.2rem;
-//   font-size: 80%;
-// }
-//
-// .div-left {
-//   float: left;
-//   width: 30%;
-// }
-//
-// .div-right {
-//   float: right;
-//   width: 70%;
-// }
-//
-// .#{$class}-details-title,
-// .#{$class}-hobbies-title {
-//   font-weight: bold;
-//   @extend %title-frame;
-// }
-//
-// .#{$class}-details-icon {
-//   font-weight: bold;
-//   margin-left: 2.5rem
-// }
-//
-//
-// .#{$class}-hobbies {
-//   float: right;
-// }
-//
-//
-// .#{$class}-hobbies-icon {
-//   display: inline-block;
-//   margin: 0.05rem;
-//   background-color: lighten($color-nobel, 10);
-//   padding: 0.6rem;
-//   width: 3rem;
-//   font-size: 70%;
-//   border-radius: 5%;
-// }
-//
-// input.more-box:checked ~ .#{$class}-details-hobbies-wrapper {
-//   display: none;
-//   transition: all 0.5s ease;
-// }
-//
-// .#{$class}-me-more  {
-//   color: $color-blue;
-//   cursor: pointer;
-//   text-decoration:underline;
-//   font-size: 0.5rem;
-// }
-//
-// input {
-//   display: none;
-// }
+@media (min-width: 1280px) {
+
+  .#{$class} {
+    width: 100%;
+  }
+
+  .#{$class}-wrapper {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .#{$class}-portrait-wrapper {
+    width: 20%;
+    margin-left: -15%;
+    margin-right: -28%;
+    padding: 0;
+  }
+
+  .#{$class}-me-wrapper {
+    width: 40%;
+    font-size: 120%;
+    border-bottom: 0.01rem solid $color-ospace;
+    margin: 2rem 4rem;
+    padding: 4rem;
+  }
+
+  .#{$class}-me-content {
+    display: flex;
+    font-size: 110%;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
