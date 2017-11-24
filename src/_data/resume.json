@@ -1,296 +1,279 @@
 {
-  "page":
-  {
-    "pageTitle": "Daniel Varvara Portfolio",
-    "pageDescription": "Welcome to my portfolio"
-  },
-  "section":
-  {
-    "title": "Portfolio",
-    "content":
-    [
-      {
-        "title": "Cool Resume",
-        "url": "asset/image/cool-cv.png",
-        "link": "https://varvarasd.github.io/cool-cv/",
-        "text": "Check out my awesome resume"
-      },
-      {
-        "title": "My Blog",
-        "url": "asset/image/quick-blog.png",
-        "link": "https://varvarasd.github.io/my-blog/",
-        "text": "Check out my awesome blog"
-      },
-      {
-        "title": "Tribute FCC Challenge",
-        "url": "asset/image/tribute.png",
-        "link": "https://varvarasd.github.io/fcc-challenge/",
-        "text": "Freecodecamp challenge"
-      }
-    ],
-    "skill":
-    {
-      "title": "Skills",
-      "list":[
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Node.js",
-        "JSON",
-        "SASS",
-        "Pug/Jade",
-        "Gulp",
-        "Git",
-        "Github"
-        ]
-      },
-      "drawing":
-      {
-        "title": "Drawing",
-        "content":
-        [
-          {
-            "url": "asset/image/1.jpg",
-            "link": "asset/image/1.jpg"
-          },
-          {
-            "url": "asset/image/2.jpg",
-            "link": "asset/image/2.jpg"
-          },
-          {
-            "url": "asset/image/3.jpg",
-            "link": "asset/image/3.jpg"
-          },
-          {
-            "url": "asset/image/4.jpg",
-            "link": "asset/image/4.jpg"
-          },
-          {
-            "url": "asset/image/5.jpg",
-            "link": "asset/image/5.jpg"
-          },
-          {
-            "url": "asset/image/6.jpg",
-            "link": "asset/image/6.jpg"
-          },
-          {
-            "url": "asset/image/7.jpg",
-            "link": "asset/image/7.jpg"
-          }
-        ]
-      },
-    "myresume":
-    {
-      "title": "my resume",
-      "text": "Download the Word version",
-      "url": "asset/doc/Resume_Daniel_Varvara.docx",
-      "icon": "file-word",
-      "component":
-      [
-        {
-        "type": "card",
-        "title": "experience",
-        "card":
-        [
-          {
-            "jobTitle": "junior web developer",
-            "company": "bitbee ltd",
-            "date": "october 2016 - to present",
-            "responsability":
-            [
-              "integrate based on designs and requirements tables, forms, dropdown menus, mega menus, features, banners for small and large projects",
-              "writing based on design, testable, efficient code by using best web development practices",
-              "building mobile first, single and multi page applications from the bottom up all the way to completion, fashioning everything from the home page to site layout and function"
+    "page": {
+        "pageTitle": "Daniel Varvara Portfolio",
+        "pageDescription": "Welcome to my portfolio"
+    },
+    "section": {
+        "title": "Portfolio",
+        "content": [{
+                "title": "Cool Resume",
+                "url": "asset/image/cool-cv.png",
+                "link": "https://varvarasd.github.io/cool-cv/",
+                "text": "Check out my awesome resume"
+            },
+            {
+                "title": "My Blog",
+                "url": "asset/image/quick-blog.png",
+                "link": "https://varvarasd.github.io/my-blog/",
+                "text": "Check out my awesome blog"
+            },
+            {
+                "title": "Tribute FCC Challenge",
+                "url": "asset/image/tribute.png",
+                "link": "https://varvarasd.github.io/fcc-challenge/",
+                "text": "Freecodecamp challenge"
+            }
+        ],
+        "skill": {
+            "title": "Skills",
+            "list": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "JavaScript",
+                "React",
+                "Node.js",
+                "NPM/Yarn",
+                "JSON",
+                "SASS",
+                "Pug/Jade",
+                "Webpack",
+                "Babel",
+                "Gulp",
+                "Git",
+                "Github"
             ]
-          },
-          {
-            "jobTitle": "lettings consultant",
-            "company": "citiquays estate agents (poplar)",
-            "date": "september 2015 - october 2016",
-            "responsability":
-            [
-              "taking and arranging property viewings efficiently",
-              "making sure all clients are referenced and checked in the filing process prior the contract",
-              "negotiating and closing existing and new offers and contracts",
-              "selling all company services strongly and ethically",
-              "online touting and canvassing for new clients on social media",
-              "solve any customer enquiries, or liaise with the competent partners for the relevant raised issues",
-              "keeping records of all activity and improving the possible client database",
-              "company car and phone in care"
-            ]
-          },
-          {
-            "jobTitle": "assistant manager",
-            "company": "bella vita (broadway market)",
-            "date": "april 2012 - september 2015",
-            "responsability":
-            [
-              "staff management, training and recruiting",
-              "creating the working rota efficiently to fit the business requirements financially and the client professionally",
-              "stock keeping and daily ordering of goods",
-              "assist with menu creation and weekly specials",
-              "taking bookings and managing turning times",
-              "table and bar service",
-              "developing recurring business by maintaining  meaningful relationships with the customers",
-              "ensure that guests have a good time at the restaurant and look immediately into any complainants they might have",
-              "food and wine matching and guiding guests throughout their restaurant experience"
-            ]
-          },
-          {
-            "jobTitle": "account manager",
-            "company": "cub international (constanta, romania)",
-            "date": "march 2008 - august 2009",
-            "responsability":
-            [
-              "managing company accounts in the two of the most popular summer resorts in Romania: Eforie Nord and Eforie Sud",
-              "meeting and exceeding targets whilst maintaining a great and professional relationship with all our clients",
-              "creating business plans for prominent clients in close colaboration with the area manager",
-              "gathering client and competitor market information to create company deals efficiently in order to overtake competition",
-              "in charge of payments and invoicing",
-              "achieving 70% increase in clients recruitment and doubling sales compared with previous year",
-              "canvas the area for new accounts",
-              "company car and phone in care",
-              "company order pad in care"
-            ]
-          }
-        ]
         },
-        {
-        "type": "list",
-        "title": "education",
-        "list":
-        [
-          {
-            "title": "css-tricks.com, udemy.com, stackoverflow.com, w3schools.com, freecodecamp.com",
-            "date": "2015- to present"
-          },
-          {
-            "title": "BTEC HND in Business and Management at AA Hamilton College, London",
-            "date": "2011 - 2013"
-          },
-          {
-            "title": "Hospitality and catering certificate, Romania",
-            "date": "2006-2007"
-          },
-          {
-            "title": "High School Technical  Energy (Specialization: Technician electronics, Romania)",
-            "date": "1998 - 2002"
-          },
-          {
-            "title": "National School and College of Arts 'Queen Marie', Constanta, Romania",
-            "date": "1991-1999"
-          }
-        ]
+        "drawing": {
+            "title": "Drawing",
+            "content": [{
+                    "url": "asset/image/1.jpg",
+                    "link": "asset/image/1.jpg"
+                },
+                {
+                    "url": "asset/image/2.jpg",
+                    "link": "asset/image/2.jpg"
+                },
+                {
+                    "url": "asset/image/3.jpg",
+                    "link": "asset/image/3.jpg"
+                },
+                {
+                    "url": "asset/image/4.jpg",
+                    "link": "asset/image/4.jpg"
+                },
+                {
+                    "url": "asset/image/5.jpg",
+                    "link": "asset/image/5.jpg"
+                },
+                {
+                    "url": "asset/image/6.jpg",
+                    "link": "asset/image/6.jpg"
+                },
+                {
+                    "url": "asset/image/7.jpg",
+                    "link": "asset/image/7.jpg"
+                }
+            ]
+        },
+        "myresume": {
+            "title": "my resume",
+            "text": "Download the Word version",
+            "url": "asset/doc/Resume_Daniel_Varvara.docx",
+            "icon": "file-word",
+            "component": [{
+                    "type": "card",
+                    "title": "experience",
+                    "card": [{
+                            "jobTitle": "freelance web developer - remote",
+                            "company": "shnell node -  bayern, deutschland",
+                            "date": "june 2017 - to present",
+                            "responsability": [
+                                "Building a Cloud Management application with client and admin",
+                                "HTML, CSS and Bootstrap custom layout integration and customisation",
+                                "Making use of : React.js, JavaScript, Json, Nodejs, NPM, Webpack, Babel, Git, Github"
+                            ]
+                        },
+                        {
+                            "jobTitle": "junior web developer",
+                            "company": "bitbee ltd",
+                            "date": "october 2016 - june 2017",
+                            "responsability": [
+                                "integrate based on designs and requirements tables, forms, dropdown menus, mega menus, features, banners for small and large projects",
+                                "writing based on design, testable, efficient code by using best web development practices",
+                                "building mobile first, single and multi page applications from the bottom up all the way to completion, fashioning everything from the home page to site layout and function"
+                            ]
+                        },
+                        {
+                            "jobTitle": "lettings consultant",
+                            "company": "citiquays estate agents (poplar)",
+                            "date": "september 2015 - october 2016",
+                            "responsability": [
+                                "taking and arranging property viewings efficiently",
+                                "making sure all clients are referenced and checked in the filing process prior the contract",
+                                "negotiating and closing existing and new offers and contracts",
+                                "selling all company services strongly and ethically",
+                                "online touting and canvassing for new clients on social media",
+                                "solve any customer enquiries, or liaise with the competent partners for the relevant raised issues",
+                                "keeping records of all activity and improving the possible client database",
+                                "company car and phone in care"
+                            ]
+                        },
+                        {
+                            "jobTitle": "assistant manager",
+                            "company": "bella vita (broadway market)",
+                            "date": "april 2012 - september 2015",
+                            "responsability": [
+                                "staff management, training and recruiting",
+                                "creating the working rota efficiently to fit the business requirements financially and the client professionally",
+                                "stock keeping and daily ordering of goods",
+                                "assist with menu creation and weekly specials",
+                                "taking bookings and managing turning times",
+                                "table and bar service",
+                                "developing recurring business by maintaining  meaningful relationships with the customers",
+                                "ensure that guests have a good time at the restaurant and look immediately into any complainants they might have",
+                                "food and wine matching and guiding guests throughout their restaurant experience"
+                            ]
+                        },
+                        {
+                            "jobTitle": "account manager",
+                            "company": "cub international (constanta, romania)",
+                            "date": "march 2008 - august 2009",
+                            "responsability": [
+                                "managing company accounts in the two of the most popular summer resorts in Romania: Eforie Nord and Eforie Sud",
+                                "meeting and exceeding targets whilst maintaining a great and professional relationship with all our clients",
+                                "creating business plans for prominent clients in close colaboration with the area manager",
+                                "gathering client and competitor market information to create company deals efficiently in order to overtake competition",
+                                "in charge of payments and invoicing",
+                                "achieving 70% increase in clients recruitment and doubling sales compared with previous year",
+                                "canvas the area for new accounts",
+                                "company car and phone in care",
+                                "company order pad in care"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "list",
+                    "title": "education",
+                    "list": [{
+                            "title": "css-tricks.com, udemy.com, stackoverflow.com, w3schools.com, freecodecamp.com",
+                            "date": "2015- to present"
+                        },
+                        {
+                            "title": "BTEC HND in Business and Management at AA Hamilton College, London",
+                            "date": "2011 - 2013"
+                        },
+                        {
+                            "title": "Hospitality and catering certificate, Romania",
+                            "date": "2006-2007"
+                        },
+                        {
+                            "title": "High School Technical  Energy (Specialization: Technician electronics, Romania)",
+                            "date": "1998 - 2002"
+                        },
+                        {
+                            "title": "National School and College of Arts 'Queen Marie', Constanta, Romania",
+                            "date": "1991-1999"
+                        }
+                    ]
+                }
+            ]
+        },
+        "about": {
+            "portrait": {
+                "type": "image",
+                "url": "asset/image/eu.jpg"
+            },
+            "title": "about me",
+            "underline": "______",
+            "content": [
+                "Hello and welcome!",
+                "A little about me: I'm a natural problem solver with a keen interest in all web development technologies.",
+                "After working in various fields, I have finally found my true passion in coding just about a year ago. Through many hours of coffee and many cups of studying, ups and downs, self set goals wrestled, I am more than happy to offer my self taught skills, passion and time to use. I'm well experienced in building SEO optimised mobile first applications using best web development practices and technologies. I have just under 1 year of web development experience and I’m always keen to learn new things, tackle new challenges and race with the best solutions. So far I’ve been developing websites, integrated from pdf and psd design, fashioning everything from bottom up:",
+                "- creating responsive, mobile first single page and multi page applications",
+                "- creating reusable website components and features such as: banners, footers, photo galleries, headers, drop down menus, navigation bars, tables, button features etc",
+                "For more information, your questions, suggestions or anything at all please go to the contact section and get in touch.",
+                "It was nice having you and I hope you'll enjoy the rest.",
+                "Have an outstanding day!"
+            ],
+            "contact": {
+                "title": "Contact",
+                "content": [{
+                        "data": "x - ☐ daniel@daniel:/var/www/contact"
+                    },
+                    {
+                        "icon": "phone",
+                        "data": "07761 811 456"
+                    },
+                    {
+                        "icon": "mail",
+                        "data": "varvara_sd@outlook.com"
+                    },
+                    {
+                        "icon": "laptop",
+                        "data": "www.danvars.uk"
+                    },
+                    {
+                        "icon": "home",
+                        "data": "E15 3HB, London, UK"
+                    }
+                ]
+            },
+            "social": {
+                "title": "Social",
+                "content": [{
+                        "link": "https://github.com/varvarasd",
+                        "icon": "github"
+                    },
+                    {
+                        "link": "https://www.linkedin.com/in/danielvarvara/",
+                        "icon": "linkedin"
+                    },
+                    {
+                        "link": "https://www.facebook.com/Searath",
+                        "icon": "facebook2"
+                    }
+                ]
+            }
+        },
+        "home": {
+            "author": "Daniel Varvara",
+            "title": "Web Developer",
+            "background": {
+                "type": "image",
+                "url": "asset/image/1background-top.jpg"
+            },
+            "menu": {
+                "name": "menu",
+                "url": "menu",
+                "type": "list",
+                "list": [{
+                        "label": "home",
+                        "url": "home"
+                    },
+                    {
+                        "label": "about",
+                        "url": "about"
+                    },
+                    {
+                        "label": "resume",
+                        "url": "resume"
+                    },
+                    {
+                        "label": "drawing",
+                        "url": "drawing"
+                    },
+                    {
+                        "label": "portfolio",
+                        "url": "portfolio"
+                    },
+                    {
+                        "label": "contact",
+                        "url": "contact"
+                    }
+                ]
+            }
         }
-      ]
-    },
-    "about":
-    {
-      "portrait":
-      {
-        "type": "image",
-        "url": "asset/image/eu.jpg"
-      },
-      "title": "about me",
-      "underline": "______",
-      "content": [
-        "Hello and welcome!",
-        "A little about me: I'm a natural problem solver with a keen interest in all web development technologies.",
-        "After working in various fields, I have finally found my true passion in coding just about a year ago. Through many hours of coffee and many cups of studying, ups and downs, self set goals wrestled, I am more than happy to offer my self taught skills, passion and time to use. I'm well experienced in building SEO optimised mobile first applications using best web development practices and technologies. I have just under 1 year of web development experience and I’m always keen to learn new things, tackle new challenges and race with the best solutions. So far I’ve been developing websites, integrated from pdf and psd design, fashioning everything from bottom up:",
-        "- creating responsive, mobile first single page and multi page applications",
-        "- creating reusable website components and features such as: banners, footers, photo galleries, headers, drop down menus, navigation bars, tables, button features etc",
-        "For more information, your questions, suggestions or anything at all please go to the contact section and get in touch.",
-        "It was nice having you and I hope you'll enjoy the rest.",
-        "Have an outstanding day!"
-      ],
-      "contact":
-      {
-        "title": "Contact",
-        "content":
-        [
-          {
-            "data": "x - ☐ daniel@daniel:/var/www/contact"
-          },
-          {
-            "icon": "phone",
-            "data": "07761 811 456"
-          },
-          {
-            "icon": "mail",
-            "data": "varvara_sd@outlook.com"
-          },
-          {
-            "icon": "laptop",
-            "data": "www.danvars.uk"
-          },
-          {
-            "icon": "home",
-            "data": "E15 3HB, London, UK"
-          }
-        ]
-      },
-      "social":
-      {
-        "title": "Social",
-        "content":
-        [
-          {
-            "link": "https://github.com/varvarasd",
-            "icon": "github"
-          },
-          {
-            "link": "https://www.linkedin.com/in/danielvarvara/",
-            "icon": "linkedin"
-          },
-          {
-            "link": "https://www.facebook.com/Searath",
-            "icon": "facebook2"
-          }
-        ]
-      }
-    },
-    "home":
-    {
-      "author": "Daniel Varvara",
-      "title": "Junior Web Developer",
-      "background":
-      {
-        "type": "image",
-        "url": "asset/image/1background-top.jpg"
-      },
-      "menu":
-      {
-        "name": "menu",
-        "url": "menu",
-        "type": "list",
-        "list":
-        [
-          {
-            "label": "home",
-            "url": "home"
-          },
-          {
-            "label": "about",
-            "url": "about"
-          },
-          {
-            "label": "resume",
-            "url": "resume"
-          },
-          {
-            "label": "drawing",
-            "url": "drawing"
-          },
-          {
-            "label": "portfolio",
-            "url": "portfolio"
-          },
-          {
-            "label": "contact",
-            "url": "contact"
-          }
-        ]
-      }
     }
-  }
 }
